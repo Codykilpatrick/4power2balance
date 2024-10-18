@@ -27,7 +27,7 @@ function CollapsibleSection({ title, children }) {
 function RulesSection() {
   return (
     <section className="mb-8">
-      <h2 className="text-3xl font-extrabold mb-6 text-center text-starlight-white">Rules</h2>
+      <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2 mb-6">Rules</h2>
       
       <CollapsibleSection title="Tournament Format">
         <ul className="list-disc list-inside space-y-2">

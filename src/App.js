@@ -26,9 +26,8 @@ function App() {
     <div className="flex flex-col min-h-screen bg-space-dark text-starlight-white">
       <Header />
       <main className="flex-grow container mx-auto p-4">
-        <RulesSection />
-        <h1 className="text-3xl font-bold">Tournament Bracket</h1>
         <SwissBracket participants={participants} results={results} />
+        <RulesSection />
       </main>
       <Footer />
     </div>

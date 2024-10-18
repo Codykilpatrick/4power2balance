@@ -68,14 +68,12 @@ const SwissBracket = ({ participants, results }) => {
   return (
     <div className="space-y-8">
       <div className="space-y-6">
-        <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">Current Week's Matches</h2>
-        {currentRound.length === 0 ? (
-          <p className="text-starlight-white text-lg italic">No matches scheduled for this week.</p>
-        ) : (
+        <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2 out">Current Week's Matches</h2>
+        {
           currentRound.map((match, matchIndex) => (
             <div
               key={matchIndex}
-              className="bg-nebula-purple p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="bg-nebula-purple p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white"
             >
               <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
                 <span>{match.team1.name}</span>
@@ -87,7 +85,7 @@ const SwissBracket = ({ participants, results }) => {
               )}
             </div>
           ))
-        )}
+        }
       </div>
       <div className="mt-12">
         <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">Standings</h2>

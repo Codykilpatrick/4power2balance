@@ -66,23 +66,22 @@ const SwissBracket = ({ participants, results }) => {
   const currentRound = rounds[rounds.length - 1] || [];
 
   return (
-    <div className="space-y-6">
-      <h1 className="text-3xl font-bold">Swiss Tournament</h1>
-      <div className="space-y-4">
-        <h2 className="text-2xl font-bold">Current Week's Matches</h2>
+    <div className="space-y-8">
+      <div className="space-y-6">
+        <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">Current Week's Matches</h2>
         {currentRound.length === 0 ? (
-          <p>No matches scheduled for this week.</p>
+          <p className="text-starlight-white text-lg italic">No matches scheduled for this week.</p>
         ) : (
           currentRound.map((match, matchIndex) => (
             <div
               key={matchIndex}
-              className="bg-gray-100 p-4 rounded-lg shadow-md"
+              className="bg-nebula-purple p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
-              <div className="p-2">
+              <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
                 <span>{match.team1.name}</span>
               </div>
               {match.team2 && (
-                <div className="p-2">
+                <div className="p-2 text-starlight-white text-xl font-semibold">
                   <span>{match.team2.name}</span>
                 </div>
               )}
@@ -90,18 +89,20 @@ const SwissBracket = ({ participants, results }) => {
           ))
         )}
       </div>
-      <div className="mt-8">
-        <h2 className="text-2xl font-bold">Standings</h2>
-        <ul className="space-y-2">
+      <div className="mt-12">
+        <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">Standings</h2>
+        <ul className="space-y-4">
           {standings
             .sort((a, b) => b.points - a.points || a.name.localeCompare(b.name))
             .map((team, index) => (
-              <li key={team.name} className="flex flex-col space-y-1">
-                <div className="flex justify-between">
+              <li key={team.name} className="flex flex-col space-y-2 bg-space-dark p-4 rounded-lg shadow-md">
+                <div className="flex justify-between items-center text-starlight-white text-lg font-medium">
                   <span>{index + 1}. {team.name}</span>
-                  <span>{team.points} points</span>
+                  <span className="bg-ionized-blue text-space-dark px-3 py-1 rounded-full text-sm font-bold">
+                    {team.points} points
+                  </span>
                 </div>
-                <div className="text-sm">
+                <div className="text-sm text-metallic-grey">
                   Matches Played: {team.matchesPlayed}
                 </div>
               </li>
@@ -110,6 +111,7 @@ const SwissBracket = ({ participants, results }) => {
       </div>
     </div>
   );
+  
 };
 
 export default SwissBracket;

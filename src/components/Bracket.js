@@ -42,7 +42,11 @@ const SwissBracket = ({ participants, results }) => {
     const newStandings = standings.map((team) => {
       const result = results.find((r) => r.name === team.name);
       if (result) {
-        return { ...team, points: result.points, matchesPlayed: result.matchesPlayed };
+        return {
+          ...team,
+          points: result.points,
+          matchesPlayed: result.matchesPlayed,
+        };
       }
       return team;
     });
@@ -92,9 +96,14 @@ const SwissBracket = ({ participants, results }) => {
           {standings
             .sort((a, b) => b.points - a.points || a.name.localeCompare(b.name))
             .map((team, index) => (
-              <li key={team.name} className="flex justify-between">
-                <span>{index + 1}. {team.name}</span>
-                <span>{team.points} points</span>
+              <li key={team.name} className="flex flex-col space-y-1">
+                <div className="flex justify-between">
+                  <span>{index + 1}. {team.name}</span>
+                  <span>{team.points} points</span>
+                </div>
+                <div className="text-sm">
+                  Matches Played: {team.matchesPlayed}
+                </div>
               </li>
             ))}
         </ul>

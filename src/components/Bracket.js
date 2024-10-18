@@ -10,14 +10,13 @@ const SwissBracket = ({ participants, results }) => {
     }))
   );
 
-
-
-  const startNextRound = () => {
-    const newRounds = [...rounds];
-    const currentRound = pairTeams(standings);
-    newRounds.push(currentRound);
-    setRounds(newRounds);
-  };
+  useEffect(() => {
+    if (results) {
+      updateStandings(results);
+    } else {
+      startNewRound();
+    }
+  }, [results]);
 
   const pairTeams = (teams) => {
     // Sort by points, then by name
@@ -39,6 +38,26 @@ const SwissBracket = ({ participants, results }) => {
     return pairs;
   };
 
+  const updateStandings = (results) => {
+    const newStandings = standings.map((team) => {
+      const result = results.find((r) => r.name === team.name);
+      if (result) {
+        return { ...team, points: result.points, matchesPlayed: result.matchesPlayed };
+      }
+      return team;
+    });
+
+    setStandings(newStandings);
+    startNewRound(newStandings);
+  };
+
+  const startNewRound = (updatedStandings = standings) => {
+    // Create a new round of matches based on the standings
+    const newRounds = [...rounds];
+    const currentRound = pairTeams(updatedStandings);
+    newRounds.push(currentRound);
+    setRounds(newRounds);
+  };
 
   const currentRound = rounds[rounds.length - 1] || [];
 
@@ -47,7 +66,9 @@ const SwissBracket = ({ participants, results }) => {
       <h1 className="text-3xl font-bold">Swiss Tournament</h1>
       <div className="space-y-4">
         <h2 className="text-2xl font-bold">Current Week's Matches</h2>
-        {
+        {currentRound.length === 0 ? (
+          <p>No matches scheduled for this week.</p>
+        ) : (
           currentRound.map((match, matchIndex) => (
             <div
               key={matchIndex}
@@ -63,15 +84,8 @@ const SwissBracket = ({ participants, results }) => {
               )}
             </div>
           ))
-        }
+        )}
       </div>
-      <button
-        className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg"
-        onClick={startNextRound}
-        disabled={rounds.length >= 3}
-      >
-        Start Next Round
-      </button>
       <div className="mt-8">
         <h2 className="text-2xl font-bold">Standings</h2>
         <ul className="space-y-2">

@@ -9,8 +9,8 @@ import resultsData from './components/resultsData'; //
 
 function App() {
   const participants = [
-    'Team A', 'Team B', 'Team C', 'Team D', 
-    'Team E', 'Team F', 'Team G', 'Team H'
+    'Frontier Negotiator', 'I’d sin for that solar empire', 'Bankstreet Boys', 'two eggs, one kol and a pure eradic', 
+    'ISS', 'LirTnolikSimcler2xdd', 'The namelessones', 'Suneaters', Panda, Loong
   ];
 
 

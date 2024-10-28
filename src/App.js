@@ -9,8 +9,8 @@ import resultsData from './components/resultsData'; //
 
 function App() {
   const participants = [
-    'Frontier Negotiator', 'I’d sin for that solar empire', 'Bankstreet Boys', 'two eggs, one kol and a pure eradic', 
-    'ISS', 'LirTnolikSimcler2xdd', 'The namelessones', 'Suneaters', Panda, Loong
+    'Frontier Negotiator', 'I`d sin for that solar empire', 'Bankstreet Boys', 'two eggs, one kol and a pure eradic', 
+    'ISS', 'LirTnolikSimcler2xdd', 'The namelessones', 'Suneaters', 'Panda', 'Loong'
   ];
 
 

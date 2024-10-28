@@ -70,7 +70,7 @@ const SwissBracket = ({ participants, results }) => {
       <div className="space-y-6">
         <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2 out">Current Week's Matches</h2>
             <div
-              className="bg-nebula-purple p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white"
+              className="bg-space-dark p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white"
             >
               <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
                 <span>Panda</span>

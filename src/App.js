@@ -16,7 +16,7 @@ function App() {
 
   const [results, ] = useState(resultsData); 
   return (
-    <div className="flex flex-col min-h-screen bg-space-dark text-starlight-white">
+    <div className="flex flex-col min-h-screen bg-image text-starlight-white">
       <Header />
       <main className="flex-grow container mx-auto p-4">
         <SwissBracket participants={participants} results={results} />

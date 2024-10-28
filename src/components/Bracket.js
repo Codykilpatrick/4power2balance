@@ -69,23 +69,40 @@ const SwissBracket = ({ participants, results }) => {
     <div className="space-y-8">
       <div className="space-y-6">
         <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2 out">Current Week's Matches</h2>
-        {
-          currentRound.map((match, matchIndex) => (
             <div
-              key={matchIndex}
               className="bg-nebula-purple p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white"
             >
               <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
-                <span>{match.team1.name}</span>
+                <span>Panda</span>
               </div>
-              {match.team2 && (
                 <div className="p-2 text-starlight-white text-xl font-semibold">
-                  <span>{match.team2.name}</span>
+                  <span>Loong</span>
                 </div>
-              )}
+                <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
+                <span>Frontier Negotiator</span>
+              </div>
+                <div className="p-2 text-starlight-white text-xl font-semibold">
+                  <span>Suneaters</span>
+                </div>
+                <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
+                <span>I'd Sin for that Solar Empire</span>
+              </div>
+                <div className="p-2 text-starlight-white text-xl font-semibold">
+                  <span>Bankstreet Boys</span>
+                </div>
+                <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
+                <span>Two Eggs, One Kol, and a Pure Eradica</span>
+              </div>
+                <div className="p-2 text-starlight-white text-xl font-semibold">
+                  <span>LirTnolikSimcler2xdd</span>
+                </div>
+                <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
+                <span>ISS</span>
+              </div>
+                <div className="p-2 text-starlight-white text-xl font-semibold">
+                  <span>The Nameless Ones</span>
+                </div>
             </div>
-          ))
-        }
       </div>
       <div className="mt-12">
         <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">Standings</h2>

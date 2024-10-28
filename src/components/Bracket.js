@@ -80,7 +80,8 @@ const SwissBracket = ({ participants, results }) => {
                 </div>
             </div>
             <div
-              className="bg-nebula-purple p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white"
+              className="bg-space-dark p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white"
+            
             >
                 <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
                 <span>Frontier Negotiator</span>
@@ -90,7 +91,7 @@ const SwissBracket = ({ participants, results }) => {
                 </div>
             </div>
             <div
-              className="bg-nebula-purple p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white"
+              className="bg-space-dark p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white"
             >
                 <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
                 <span>I'd Sin for that Solar Empire</span>
@@ -100,7 +101,7 @@ const SwissBracket = ({ participants, results }) => {
                 </div>
             </div>
             <div
-              className="bg-nebula-purple p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white"
+              className="bg-space-dark p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white"
             >
                 <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
                 <span>Two Eggs, One Kol, and a Pure Eradica</span>
@@ -110,7 +111,7 @@ const SwissBracket = ({ participants, results }) => {
                 </div>
             </div>
             <div
-              className="bg-nebula-purple p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white"
+              className="bg-space-dark p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white"
             >
                 <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
                 <span>ISS</span>

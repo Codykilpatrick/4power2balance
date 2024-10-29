@@ -1,73 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-const SwissBracket = ({ participants, results }) => {
-  const [rounds, setRounds] = useState([]);
-  const [standings, setStandings] = useState(
-    participants.map((team) => ({
-      name: team,
-      points: 0,
-      matchesPlayed: 0,
-    }))
-  );
+const SwissBracket = ({ results }) => {
+    const teamlist = results.map((result) => result.name);
+    const teamStandingList = results.map((result) => [result.name, result.points, result.matchesPlayed]);
+    const matchList = results.map((result) => [result.name, result.currentPair]);
 
-  useEffect(() => {
-    if (results) {
-      updateStandings(results);
-    } else {
-      startNewRound();
-    }
-  }, [results]);
-
-  const pairTeams = (teams) => {
-    // Sort by points, then by name
-    const sortedTeams = [...teams].sort((a, b) => {
-      if (b.points !== a.points) {
-        return b.points - a.points;
-      }
-      return a.name.localeCompare(b.name);
-    });
-
-    // Pair teams with similar points
-    const pairs = [];
-    for (let i = 0; i < sortedTeams.length; i += 2) {
-      pairs.push({
-        team1: sortedTeams[i],
-        team2: sortedTeams[i + 1] || null,
-      });
-    }
-    return pairs;
-  };
-
-  const updateStandings = (results) => {
-    const newStandings = standings.map((team) => {
-      const result = results.find((r) => r.name === team.name);
-      if (result) {
-        return {
-          ...team,
-          points: result.points,
-          matchesPlayed: result.matchesPlayed,
-        };
-      }
-      return team;
-    });
-
-    setStandings(newStandings);
-    startNewRound(newStandings);
-  };
-
-  const startNewRound = (updatedStandings = standings) => {
-    // Create a new round of matches based on the standings
-    const newRounds = [...rounds];
-    const currentRound = pairTeams(updatedStandings);
-    newRounds.push(currentRound);
-    setRounds(newRounds);
-  };
-
-  const currentRound = rounds[rounds.length - 1] || [];
 
   return (
     <div className="space-y-8">
-      <div className="space-y-6">
+      {/* <div className="space-y-6">
         <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2 out">Current Week's Matches</h2>
             <div
               className="bg-space-dark p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white"
@@ -140,7 +81,7 @@ const SwissBracket = ({ participants, results }) => {
               </li>
             ))}
         </ul>
-      </div>
+      </div> */}
     </div>
   );
   

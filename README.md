@@ -35,3 +35,5 @@ To start the development server, run:
 ```sh
 npm start
 ```
+
+To make changes to the match pairs for the week or the standings edit the data in `teamData.js`

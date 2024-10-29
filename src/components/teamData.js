@@ -1,5 +1,5 @@
 // src/resultsData.js
-const resultsData = [
+const teamData = [
   { name: 'Fronteir Negotiator', points: 0, matchesPlayed: 0, currentPair: null, matchTime: null },
   { name: 'I`d sin for that solar empire', points: 0, matchesPlayed: 0, currentPair: null, matchTime: null },
   { name: 'Bankstreet Boys', points: 0, matchesPlayed: 0, currentPair: null, matchTime: null },
@@ -12,4 +12,4 @@ const resultsData = [
   { name: 'Loong', points: 0, matchesPlayed: 0, currentPair: null, matchTime: null },
 ];
 
-export default resultsData;
+export default teamData;

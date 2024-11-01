@@ -2,7 +2,7 @@
 const teamData = [
   { name: 'Bankstreet Boys', points: 0, matchesPlayed: 0, currentPair: 1, matchTime: null },
   { name: 'I`d sin for that solar empire', points: 0, matchesPlayed: 0, currentPair: 1, matchTime: null },
-  { name: 'Fronteir Negotiator', points: 0, matchesPlayed: 0, currentPair: 3, matchTime: null },
+  { name: 'Frontier Negotiator', points: 0, matchesPlayed: 0, currentPair: 3, matchTime: null },
   { name: 'Two Eggs, One Kol, and a Pure Eradica', points: 0, matchesPlayed: 0,  currentPair: 4, matchTime: null },
   { name: 'ISS', points: 0, matchesPlayed: 0, currentPair: 5, matchTime: '03 NOV 1500 CET' },
   { name: 'LirTnolikSimcler2xdd', points: 0, matchesPlayed: 0, currentPair: 4, matchTime: null },

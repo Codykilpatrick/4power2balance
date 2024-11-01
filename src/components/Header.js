@@ -7,7 +7,6 @@ function Header() {
       <h1 className="text-4xl font-extrabold tracking-wide">
         <img id="headerlogo" src="4Power2BalanceWhite.png" alt="4 Power 2 Balance"/>
       </h1>
-      <div className="mt-2 border-t-2 border-starlight-white w-1/4 mx-auto"></div>
     </header>
   );
 }

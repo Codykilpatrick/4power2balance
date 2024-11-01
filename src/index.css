@@ -12,5 +12,11 @@
   max-height: 60%;
   max-width: 60%;
   margin: auto;
-  paddiing: 10%;
+  paddiing: 20%;
+}
+.space-y-8 {
+  padding: 20px;
+}
+.mb-8 {
+  padding: 20px;
 }

@@ -66,10 +66,10 @@ function RulesSection() {
 
       <CollapsibleSection title="Prize Pool">
         <ul className="list-disc list-inside space-y-2">
-          <li>1st: 54€ + 9$ + Winner Flair</li>
-          <li>2nd: 36€ + 6$ + 2nd Place Flair</li>
-          <li>3rd: 18€ + 6$ + 3rd Place Flair</li>
-          <li>Top 8: 6€ + 6$ + Top 8 Flair</li>
+          <li>1st: 81€ + 9$ + Winner Flair</li>
+          <li>2nd: 48€ + 6$ + 2nd Place Flair</li>
+          <li>3rd: 30€ + 6$ + 3rd Place Flair</li>
+          <li>Top 8: 18€ + 6$ + Top 8 Flair</li>
           <li>Support from: u/duckeh133</li>
         </ul>
         <p className="mt-4">

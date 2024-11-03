@@ -8,7 +8,7 @@ const teamData = [
   { name: 'LirTnolikSimcler2xdd', points: 0, matchesPlayed: 0, currentPair: 4, matchTime: '03 NOV 1500 CET' },
   { name: 'The Nameless Ones', points: 0, matchesPlayed: 0, currentPair: 5, matchTime: '03 NOV 1500 CET' },
   { name: 'Suneaters', points: 3, matchesPlayed: 0, currentPair: 3, matchTime: '02 NOV 2230 CET' },
-  { name: 'Panda', points: 0, matchesPlayed: 0, currentPair: 2, matchTime: 'waiting for replay' },
+  { name: 'Panda', points: 3, matchesPlayed: 0, currentPair: 2, matchTime: 'waiting for replay' },
   { name: 'Loong', points: 0, matchesPlayed: 0, currentPair: 2, matchTime: 'waiting for replay' },
 ];
 

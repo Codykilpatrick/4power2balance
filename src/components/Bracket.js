@@ -25,7 +25,7 @@ const SwissBracket = ({ results }) => {
               </div>
             )}
             <div className="p-2 text-starlight-white text-xl font-semibold">
-              <span>Match Time: {matchGroups[pairKey][0].matchTime || 'TBD'}</span>
+              <span>Status: {matchGroups[pairKey][0].matchTime || 'TBD'}</span>
             </div>
           </div>
         ))}

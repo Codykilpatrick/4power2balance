@@ -1,7 +1,7 @@
 // src/resultsData.js
 const teamData = [
-  { name: 'Bankstreet Boys', points: 0, matchesPlayed: 0, currentPair: 1, matchTime: 'Bankstreet Boys won' },
-  { name: 'I`d sin for that solar empire', points: 0, matchesPlayed: 0, currentPair: 1, matchTime: 'Bankstreet Boys won' },
+  { name: 'Bankstreet Boys', points: 3, matchesPlayed: 1, currentPair: 1, matchTime: 'Bankstreet Boys won' },
+  { name: 'I`d sin for that solar empire', points: 0, matchesPlayed: 1, currentPair: 1, matchTime: 'Bankstreet Boys won' },
   { name: 'Frontier Negotiator', points: 0, matchesPlayed: 1, currentPair: 3, matchTime: 'Suneaters won' },
   { name: 'Two Eggs, One Kol, and a Pure Eradica', points: 0, matchesPlayed: 1,  currentPair: 4, matchTime: 'LirTnolikSimcler2xdd won' },
   { name: 'ISS', points: 0, matchesPlayed: 1, currentPair: 5, matchTime: 'The Nameless Ones won' },

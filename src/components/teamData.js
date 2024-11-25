@@ -8,7 +8,7 @@ const teamData = [
   { name: 'Bankstreet Boys', points: 3, matchesPlayed: 2, currentPair: 4, matchTime: 'TBA' },
   { name: 'Suneaters', points: 6, matchesPlayed: 2, currentPair: 1, matchTime: 'TBA' },
   { name: 'Panda', points: 3, matchesPlayed: 2, currentPair: 2, matchTime: 'TBA' },
-  { name: 'Loong', points: 0, matchesPlayed: 2, currentPair: 3, matchTime: 'TBA' },
+  { name: 'Loong', points: 3, matchesPlayed: 2, currentPair: 3, matchTime: 'TBA' },
   { name: 'ISS', points: 0, matchesPlayed: 2, currentPair: 4, matchTime: 'TBA' },
 ];
 

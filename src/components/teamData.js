@@ -5,7 +5,7 @@ const teamData = [
   { name: 'LirTnolikSimcler2xdd', points: 9, matchesPlayed: 3, currentPair: 1, matchTime: 'Razors Edge | Scrambler | Crossfire | 08 DEC' },
   { name: 'Frontier Negotiator', points: 3, matchesPlayed: 3, currentPair: 4, matchTime: 'Transtav | Scrambler | Crossfire | 08 DEC 20:30 CET' },
   { name: 'The nameless ones', points: 9, matchesPlayed: 3, currentPair: 1, matchTime: 'Razors Edge | Scrambler | Crossfire | 08 DEC' },
-  { name: 'Bankstreet Boys', points: 6, matchesPlayed: 3, currentPair: 3, matchTime: 'Bankstreet Boys won' },
+  { name: 'Bankstreet Boys', points: 9, matchesPlayed: 4, currentPair: 3, matchTime: 'Bankstreet Boys won' },
   { name: 'Suneaters', points: 6, matchesPlayed: 3, currentPair: 2, matchTime: 'TBA' },
   { name: 'Panda', points: 3, matchesPlayed: 3, currentPair: 3, matchTime: 'Bankstreet Boys' },
   { name: 'Loong', points: 6, matchesPlayed: 3, currentPair: 2, matchTime: 'TBA' },

@@ -14,6 +14,7 @@ function App() {
     <div className="flex flex-col min-h-screen bg-image text-starlight-white">
       <Header />
       <main className="flex-grow container mx-auto p-4">
+        <Leaderboard />
         <SwissBracket results={results} />
         <RulesSection />
       </main>

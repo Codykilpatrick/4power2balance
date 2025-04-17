@@ -5,7 +5,7 @@ import RulesSection from './components/RulesSection';
 import SwissBracket from './components/Bracket';
 import Footer from './components/Footer';
 import teamData from './components/teamData'; // 
-import Leaderboard from './components/leaderboard'; 
+import Leaderboard from './components/Leaderboard'; 
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <div className="flex flex-col min-h-screen bg-image text-starlight-white">
       <Header />
       <main className="flex-grow container mx-auto p-4">
-        <Leaderboard />
+        <div classname="Leaderboard"> <Leaderboard /> </div>
         <SwissBracket results={results} />
         <RulesSection />
       </main>

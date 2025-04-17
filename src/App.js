@@ -5,6 +5,7 @@ import RulesSection from './components/RulesSection';
 import SwissBracket from './components/Bracket';
 import Footer from './components/Footer';
 import teamData from './components/teamData'; // 
+import Leaderboard from './components/Leaderboard'; 
 
 
 function App() {

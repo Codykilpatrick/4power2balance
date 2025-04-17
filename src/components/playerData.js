@@ -47,4 +47,3 @@ const playerData = [
 export default playerData;
 
 
-export default playerData;

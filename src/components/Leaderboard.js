@@ -51,23 +51,35 @@ const Leaderboard = () => {
       </div>
 
       {/* Players Leaderboard */}
+      // Players Leaderboard - 3 Columns, 10 per Column
       <div>
         <h2 className="text-2xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2 mt-8">
-          Leaderboard - Top Players
+          Leaderboard - Top 30 Players
         </h2>
-        <ul className="space-y-3">
-          {sortedPlayers.slice(0, 10).map((player, index) => (
-            <li key={player.name} className="flex justify-between items-center bg-space-light p-3 rounded-md shadow-sm">
-              <div className="text-starlight-white text-base">
-                {index + 1}. {player.name} <span className="text-sm text-metallic-grey">({player.currentTeam})</span>
-              </div>
-              <div className="bg-ionized-blue text-space-dark px-2 py-1 rounded-full text-sm font-semibold">
-                {player.EP} EP
-              </div>
-            </li>
+      
+        {/* 3 Spalten Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+          {/* Jede Spalte separat */}
+          {[0, 1, 2].map((columnIndex) => (
+            <ul key={columnIndex} className="space-y-3">
+              {sortedPlayers
+                .slice(columnIndex * 10, (columnIndex + 1) * 10) // 10 Spieler pro Spalte
+                .map((player, index) => (
+                  <li key={player.name} className="flex justify-between items-center bg-space-light p-3 rounded-md shadow-sm">
+                    <div className="text-starlight-white text-base">
+                      {(columnIndex * 10) + index + 1}. {player.name}
+                      <span className="text-sm text-metallic-grey"> ({player.currentTeam})</span>
+                    </div>
+                    <div className="bg-ionized-blue text-space-dark px-2 py-1 rounded-full text-sm font-semibold">
+                      {player.EP} EP
+                    </div>
+                  </li>
+                ))}
+            </ul>
           ))}
-        </ul>
+        </div>
       </div>
+
     </div>
   );
 };

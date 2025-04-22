@@ -36,7 +36,7 @@ const Leaderboard = () => {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-starlight-white">
                   {players.map((player) => (
                     <div key={player.name} className="flex flex-col items-center bg-space-light rounded-md p-2">
-                      <div className="font-medium">{player.name}</div>
+                      <div className="font-semibold">{player.name}</div>
                       <div className="text-sm text-metallic-grey">{player.EP} EP</div>
                     </div>
                   ))}

@@ -26,7 +26,7 @@ const Leaderboard = () => {
             const players = playerData.filter(player => player.currentTeam === team.name);
 
             return (
-              <li key={team.name} className="bg-space-dark p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white">
+              <li key={team.name} className="bg-space-dark p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white marginTop20">
                 {/* Team Name and EP */}
                 <div className="flex justify-between items-center mb-4">
                   <div className="text-starlight-white text-2xl font-semibold">

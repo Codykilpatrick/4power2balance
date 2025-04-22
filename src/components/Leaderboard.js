@@ -11,7 +11,7 @@ const Leaderboard = () => {
     <div className="space-y-12 mb-12">
       {/* --- Teams Leaderboard Section --- */}
       <div>
-        <div>
+        <div className="items-center">
           <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2 items-center">
             Leaderboard - Teams
           </h2>

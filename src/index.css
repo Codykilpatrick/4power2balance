@@ -4,9 +4,10 @@
 @tailwind utilities;
 .bg-image {
   background-image: url("/public/background.png");
-  background-position: center; /* Center the image */
-  background-repeat: repeat-y; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-repeat: repeat-y; /* Wiederhole vertikal */
+  background-size: 100% auto;  /* 100% Breite, automatische Höhe */
+  background-position: top center; /* Oben ausrichten, zentriert */
+  background-attachment: fixed; /* Optional: Bild fixieren beim Scrollen */
 }
 #headerlogo {
   max-height: 60%;

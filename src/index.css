@@ -5,8 +5,8 @@
 .bg-image {
   background-image: url("/public/background.png");
   background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-repeat: repeat-y; /* Do not repeat the image */
+  /* background-size: cover; /* Resize the background image to cover the entire container */
 }
 #headerlogo {
   max-height: 60%;

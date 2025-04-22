@@ -8,12 +8,12 @@ const Leaderboard = () => {
 
   return (
     <div className="space-y-8 mb-12">
-      <h1 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">
+      <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">
         Leaderboard
-      </h1>
-      <h2>
+      </h2>
+      <h3>
         The best Sins of a Solar Empire 2 Teams
-      </h2
+      </h3>
       <ul className="space-y-6">
         {sortedTeams.map((team, index) => {
           // Spieler für dieses Team filtern

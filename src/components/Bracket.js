@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const SwissBracket = ({ results }) => {
   // Group teams by `currentPair`
   const matchGroups = results.reduce((groups, result) => {
@@ -10,7 +12,7 @@ const SwissBracket = ({ results }) => {
   return (
     <div className="space-y-8">
       <div className="space-y-6">
-        <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">Current Week's Matches</h2>
+        <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">Current Week&apos;s Matches</h2>
         {Object.keys(matchGroups).map((pairKey) => (
           <div key={pairKey} className="bg-space-dark p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white">
             {matchGroups[pairKey].length === 2 ? (
@@ -52,6 +54,18 @@ const SwissBracket = ({ results }) => {
       </div>
     </div>
   );
+};
+
+SwissBracket.propTypes = {
+  results: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      currentPair: PropTypes.string.isRequired,
+      points: PropTypes.number.isRequired,
+      matchesPlayed: PropTypes.number.isRequired,
+      matchTime: PropTypes.string
+    })
+  ).isRequired
 };
 
 export default SwissBracket;

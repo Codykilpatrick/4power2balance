@@ -1,5 +1,6 @@
 // src/components/RulesSection.js
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 function CollapsibleSection({ title, children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +25,11 @@ function CollapsibleSection({ title, children }) {
   );
 }
 
+CollapsibleSection.propTypes = {
+  title: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired
+};
+
 function RulesSection() {
   return (
     <section className="mb-8">
@@ -35,7 +41,7 @@ function RulesSection() {
           <li><strong>Swiss System:</strong> Matches will be paired using the Swiss system to ensure balanced matchups.</li>
           <li><strong>Best of 1 (Bo1) Matches:</strong> 5 maps are available. Each team uses 2 bans, with the final map being played. The ban format is 1-2-1. Decide at random who gets the first ban.</li>
           <li><strong>Best of 3 (Bo3) Matches:</strong> For the Top 8 matches, both teams only get 1 ban. The bans will be blind via sending them to me. If you won your first two Bo1s, you can expect to play Bo3s afterward.</li>
-          <li><strong>Victory Conditions:</strong> Most competitive players prefer playing with victory conditions off, so that’s what we’ll go with.</li>
+          <li><strong>Victory Conditions:</strong> Most competitive players prefer playing with victory conditions off, so that&apos;s what we&apos;ll go with.</li>
           <li><strong>Speed:</strong> Speed will be x1.5, with all other individual speed settings set to normal.</li>
           <li><strong>Rotating Planets:</strong> Rotation On</li>
         </ul>
@@ -47,7 +53,7 @@ function RulesSection() {
           <li>Scrambler 2v2</li>
           <li>Transtav 2v2</li>
           <li>Foreign Invasion 3v3</li>
-          <li>Razor's Edge 3v3</li>
+          <li>Razor&apos;s Edge 3v3</li>
           <li>
             In Bo1 matches, teams can ban the 3v3 maps if they want to play on 2v2 maps. By the time you reach the Top 8 rounds, you should have registered a third player, or you will have to win two 2v2 maps while banning a 3v3 map.
           </li>
@@ -97,7 +103,7 @@ function RulesSection() {
 
       <CollapsibleSection title="Casting & Replays">
         <p>
-          Replays will be uploaded to the official Sins2 Discord with the tag "4P2B" in the filename. If you are interested in casting matches, please contact me.
+          Replays will be uploaded to the official Sins2 Discord with the tag &quot;4P2B&quot; in the filename. If you are interested in casting matches, please contact me.
         </p>
         <p className="mt-4">
           Some community members offer to create maps with spectator spots, which will be a possibility.
@@ -106,7 +112,7 @@ function RulesSection() {
 
       <CollapsibleSection title="Interested in Joining?">
         <p>
-          The tournament is meant to be simple, fun, and exciting. If you're into Sins2 and want to be part of the growing competitive scene, grab two friends and get ready for the action.
+          The tournament is meant to be simple, fun, and exciting. If you&apos;re into Sins2 and want to be part of the growing competitive scene, grab two friends and get ready for the action.
         </p>
         <p className="mt-4">
           To join, provide your Reddit and Discord usernames and choose a team name. It can be anything as long as it adheres to the sub and Discord rules.

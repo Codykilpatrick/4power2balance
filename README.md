@@ -36,4 +36,20 @@ To start the development server, run:
 npm start
 ```
 
+### Linting
+
+The project uses ESLint for code quality and consistency. To lint the codebase, run:
+
+```sh
+npm run lint
+```
+
+To automatically fix linting issues:
+
+```sh
+npm run lint:fix
+```
+
+### Editing Data
+
 To make changes to the match pairs for the week or the standings edit the data in `teamData.js`

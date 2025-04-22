@@ -48,25 +48,22 @@ const Leaderboard = () => {
           );
         })}
       </ul>
+      <h3>
+        Top Players
+      </h3>
+      <ul className="space-y-3">
+        {sortedPlayers.slice(0, 10).map((player, index) => (
+          <li key={player.name} className="flex justify-between items-center bg-space-light p-3 rounded-md shadow-sm">
+            <div className="text-starlight-white text-base">
+              {index + 1}. {player.name} <span className="text-sm text-metallic-grey">({player.currentTeam})</span>
+            </div>
+            <div className="bg-ionized-blue text-space-dark px-2 py-1 rounded-full text-sm font-semibold">
+              {player.EP} EP
+            </div>
+          </li>
+        ))}
+      </ul>
     </div>
-{/* Players Leaderboard */}
-      <div className="space-y-8 mb-12">
-        <h2 className="text-2xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2 mt-8">
-          Leaderboard - Top Players
-        </h2>
-        <ul className="space-y-3">
-          {sortedPlayers.slice(0, 10).map((player, index) => (
-            <li key={player.name} className="flex justify-between items-center bg-space-light p-3 rounded-md shadow-sm">
-              <div className="text-starlight-white text-base">
-                {index + 1}. {player.name} <span className="text-sm text-metallic-grey">({player.currentTeam})</span>
-              </div>
-              <div className="bg-ionized-blue text-space-dark px-2 py-1 rounded-full text-sm font-semibold">
-                {player.EP} EP
-              </div>
-            </li>
-          ))}
-        </ul>
-      </div>
   );
 };
 

@@ -11,27 +11,6 @@ const SwissBracket = ({ results }) => {
 
   return (
     <div className="space-y-8">
-      <div className="space-y-6">
-        <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">Current Week&apos;s Matches</h2>
-        {Object.keys(matchGroups).map((pairKey) => (
-          <div key={pairKey} className="bg-space-dark p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white">
-            {matchGroups[pairKey].length === 2 ? (
-              // Display two teams with a dash in between
-              <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
-                <span>{matchGroups[pairKey][0].name} - {matchGroups[pairKey][1].name}</span>
-              </div>
-            ) : (
-              // Display single team if there's no pair
-              <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
-                <span>{matchGroups[pairKey][0].name}</span>
-              </div>
-            )}
-            <div className="p-2 text-starlight-white text-xl font-semibold">
-              <span>Status: {matchGroups[pairKey][0].matchTime || 'TBD'}</span>
-            </div>
-          </div>
-        ))}
-      </div>
       <div className="mt-12">
         <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">Standings</h2>
         <ul className="space-y-4">
@@ -52,6 +31,28 @@ const SwissBracket = ({ results }) => {
           ))}
         </ul>
       </div>
+      <div className="space-y-6">
+        <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">Matches</h2>
+        {Object.keys(matchGroups).map((pairKey) => (
+          <div key={pairKey} className="bg-space-dark p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white">
+            {matchGroups[pairKey].length === 2 ? (
+              // Display two teams with a dash in between
+              <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
+                <span>{matchGroups[pairKey][0].name} - {matchGroups[pairKey][1].name}</span>
+              </div>
+            ) : (
+              // Display single team if there's no pair
+              <div className="p-2 text-starlight-white text-xl font-semibold border-b border-metallic-grey">
+                <span>{matchGroups[pairKey][0].name}</span>
+              </div>
+            )}
+            <div className="p-2 text-starlight-white text-xl font-semibold">
+              <span>Status: {matchGroups[pairKey][0].matchTime || 'TBD'}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+      
     </div>
   );
 };

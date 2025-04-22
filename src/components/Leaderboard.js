@@ -14,6 +14,9 @@ const Leaderboard = () => {
         <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2 items-center">
           Leaderboard - Teams
         </h2>
+        <h3 className="text-2xl font-semibold text-starlight-white border-b-2 border-ionized-blue pb-2 items-center">
+          The best Sins of a Solar Empire 2 Teams
+        </h3>
         
         {/* List of Teams */}
         <ul className="space-y-6">

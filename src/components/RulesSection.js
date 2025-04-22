@@ -39,8 +39,7 @@ function RulesSection() {
         <ul className="list-disc list-inside space-y-2">
           <li><strong>Team Setup:</strong> Each team can register 3 players. To join the tournament, you need to register 2 players right away, and the 3rd player can be added later.</li>
           <li><strong>Swiss System:</strong> Matches will be paired using the Swiss system to ensure balanced matchups.</li>
-          <li><strong>Best of 1 (Bo1) Matches:</strong> 5 maps are available. Each team uses 2 bans, with the final map being played. The ban format is 1-2-1. Decide at random who gets the first ban.</li>
-          <li><strong>Best of 3 (Bo3) Matches:</strong> For the Top 8 matches, both teams only get 1 ban. The bans will be blind via sending them to me. If you won your first two Bo1s, you can expect to play Bo3s afterward.</li>
+          <li><strong>Best of 1 (Bo1) Matches:</strong> 7 maps are available. Each team uses 2 bans, with the final 3 maps being played. The ban format is 1-2-1. Decide at random who gets the first ban.</li>
           <li><strong>Victory Conditions:</strong> Most competitive players prefer playing with victory conditions off, so that&apos;s what we&apos;ll go with.</li>
           <li><strong>Speed:</strong> Speed will be x1.5, with all other individual speed settings set to normal.</li>
           <li><strong>Rotating Planets:</strong> Rotation On</li>
@@ -52,7 +51,9 @@ function RulesSection() {
           <li>Crossfire 2v2</li>
           <li>Scrambler 2v2</li>
           <li>Transtav 2v2</li>
+          <li>Shuriken 2v2</li>
           <li>Foreign Invasion 3v3</li>
+          <li>Maelstrom 3v3</li>
           <li>Razor&apos;s Edge 3v3</li>
           <li>
             In Bo1 matches, teams can ban the 3v3 maps if they want to play on 2v2 maps. By the time you reach the Top 8 rounds, you should have registered a third player, or you will have to win two 2v2 maps while banning a 3v3 map.
@@ -72,10 +73,10 @@ function RulesSection() {
 
       <CollapsibleSection title="Prize Pool">
         <ul className="list-disc list-inside space-y-2">
-          <li>1st: 81€ + 9$ + Winner Flair</li>
-          <li>2nd: 48€ + 6$ + 2nd Place Flair</li>
-          <li>3rd: 30€ + 6$ + 3rd Place Flair</li>
-          <li>Top 8: 18€ + 6$ + Top 8 Flair</li>
+          <li>1st: TBA</li>
+          <li>2nd: TBA</li>
+          <li>3rd: TBA</li>
+          <li>Top 8: TBA</li>
           <li>Support from: u/duckeh133</li>
         </ul>
         <p className="mt-4">

@@ -37,7 +37,7 @@ function RulesSection() {
       
       <CollapsibleSection title="Tournament Format">
         <ul className="list-disc list-inside space-y-2">
-          <li><strong>Team Setup:</strong> Each team can register 4 players. To join the tournament, you need to register 2 players right away, and an additional player can be added later. I don&apos;t want to interfere with Team Politics much, but if a player left a team, they will not be able to join any team or earn EP for the tournament placement. If the remaining players decide to recruit a replacement, they are allowed to do this up to two times. This means if 4 player team loses 2 members, the remaining 2 players are allowed to recruit 2 new members to replace the others. If then again, someone leaves the team, the remaining players need to play with an empty spot in their roster. Resulting in a total of 6 players being able to participate for a team. Ideally all teams have their things sorted out and a good stable roster of 3 main players and 1 backUp that can jump in if needed. I hope this ruling gives enough flexibility and still keeps the original identity of teams.</li>
+          <li><strong>Team Setup:</strong> Each Team can register up to 4 players. To join the tournament, you need to register 2 players right away. Additional players can be added later. I don&apos;t want to interfere with Team Politics much, but if a player left a team, they will not be able to join any team or earn EP for the tournament placement. If the remaining players decide to recruit a replacement, they are allowed to do this up to two times. This means if 4 player team loses 2 members, the remaining 2 players are allowed to recruit 2 new members to replace the others. If then again, someone leaves the team, the remaining players need to play with an empty spot in their roster. Resulting in a total of 6 players being able to participate for a team. Ideally all teams have their things sorted out and a good stable roster of 3 main players and 1 backUp that can jump in if needed. I hope this ruling gives enough flexibility and still keeps the original identity of teams.</li>
           <li><strong>Swiss System:</strong> Matches will be paired using the Swiss system to ensure balanced matchups.</li>
           <li><strong>Best of 3 (Bo3) Matches:</strong> 7 maps are available. Each team uses 2 bans, with the final 3 maps being played. The ban format is 1-2-1. Decide at random who gets the first ban.</li>
           <li><strong>Victory Conditions:</strong> Most competitive players prefer playing with victory conditions off, so that&apos;s what we&apos;ll go with.</li>
@@ -73,11 +73,11 @@ function RulesSection() {
 
       <CollapsibleSection title="Prize Pool">
         <ul className="list-disc list-inside space-y-2">
-          <li>1st: TBA</li>
-          <li>2nd: TBA</li>
-          <li>3rd: TBA</li>
-          <li>Top 8: TBA</li>
-          <li>Support from: u/duckeh133</li>
+          <li>1st: 54€ 18EP</li>
+          <li>2nd: 36€ 12EP</li>
+          <li>3rd: 30€ 6EP</li>
+          <li>4th: 24€ 2EP</li>
+          <li>Top 8: 18€ 1EP</li>
         </ul>
         <p className="mt-4">
           Additional points for a leaderboard will be awarded based on wins and placements. If the series gains traction, this will highlight top performers over a longer period.
@@ -89,13 +89,13 @@ function RulesSection() {
           Pairings will be made between 20:00 CET Sunday and 23:00 CET on Mondays. Rounds will end on Mondays at 20:00 CET and start at 23:00 CET. Full pairings will be announced on Discord and Reddit.
         </p>
         <p className="mt-4">
-          Contact your opponent via Discord or Reddit to schedule a match within the week. Official playdays are Saturday and Sunday.
+          Contact your opponent via Discord or Reddit to schedule a match within the week. Official playdays are Saturday and Sunday. The official time to play a match will be Sunday 15:00 CET. 
         </p>
         <ul className="list-disc list-inside mt-4 space-y-2">
-          <li>Round 1: TBA</li>
-          <li>Round 2: TBA</li>
-          <li>Round 3: TBA</li>
-          <li>Round 4: TBA</li>
+          <li>Round 1: 30.05. - 16.06.</li>
+          <li>Round 2: 16.06. - 30.06.</li>
+          <li>Round 3: 30.06. - 14.07.</li>
+          <li>Round 4: 14.06. - 28.07.</li>
         </ul>
         <p className="mt-4">
           Late sign-ups are allowed in Round 1 (if they make the number of teams even). This ensures fair pairings, avoids free wins due to an uneven number of teams, and gives late joiners a chance to participate.

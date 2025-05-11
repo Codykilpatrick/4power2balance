@@ -95,7 +95,7 @@ function RulesSection() {
           <li>Round 1: 30.05. - 16.06.</li>
           <li>Round 2: 16.06. - 30.06.</li>
           <li>Round 3: 30.06. - 14.07.</li>
-          <li>Round 4: 14.06. - 28.07.</li>
+          <li>Round 4: 14.07. - 28.07.</li>
         </ul>
         <p className="mt-4">
           Late sign-ups are allowed in Round 1 (if they make the number of teams even). This ensures fair pairings, avoids free wins due to an uneven number of teams, and gives late joiners a chance to participate.

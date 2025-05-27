@@ -9,7 +9,7 @@ const playerData = [
   { name: 'ncc', EP: 11, matchesPlayed: 4, wins: 1, currentTeam: 'I`d sin for that solar empire' },
   { name: 'thor941', EP: 9, matchesPlayed: 3, wins: 1, currentTeam: 'I`d sin for that solar empire' },
 
-  { name: 'sinclair2_', EP: 29, matchesPlayed: 4, wins: 4, currentTeam: 'LirTnolikSimcler2xdd' },
+  { name: 'Zabik2', EP: 29, matchesPlayed: 4, wins: 4, currentTeam: 'LirTnolikSimcler2xdd' },
   { name: 'Trolik', EP: 29, matchesPlayed: 4, wins: 4, currentTeam: 'LirTnolikSimcler2xdd' },
   { name: 'Lear_the_cat', EP: 29, matchesPlayed: 4, wins: 4, currentTeam: 'LirTnolikSimcler2xdd' },
 

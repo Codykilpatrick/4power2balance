@@ -5,7 +5,7 @@ const teamData = [
   { name: 'Fleet CMD', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 4, matchTime: 'Sunday 15:00 CEST' },
   { name: 'The Singer', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 1, matchTime: 'Sunday 15:00 CEST' },
   
-  { name: 'two eggs, one kol and a pure eradica', EP: 14, points: 6, wins: 2, matchesPlayed: 4, currentMatchesPlayed: 4, currentPair: null, matchTime: null },
+  { name: 'two eggs, one kol and a pure eradica', EP: 14, points: 6, wins: 2, matchesPlayed: 4, currentMatchesPlayed: 4, currentPair: null, matchTime: "finished" },
   { name: 'I`d sin for that solar empire', EP: 11, points: 3, wins: 1, matchesPlayed: 4, currentMatchesPlayed: 4, currentPair: null, matchTime: 'I`d sin for that solar empire won' },
   { name: 'The nameless ones', EP: 23, points: 9, wins: 3, matchesPlayed: 4, currentMatchesPlayed: 4, currentPair: null, matchTime: 'LirTnolikSimcler2xdd won' },
   { name: 'Bankstreet Boys', EP: 20, points: 9, wins: 3, matchesPlayed: 4, currentMatchesPlayed: 4, currentPair: null, matchTime: 'Bankstreet Boys won' },

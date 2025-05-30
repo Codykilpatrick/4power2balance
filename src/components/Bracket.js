@@ -37,7 +37,7 @@ const SwissBracket = ({ results }) => {
         <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">Standings</h2>
         <ul className="space-y-4">
           {results
-           .filter((team) => team.currentPair !== null)
+           .filter((team) => typeof team.currentPair === 'number')
             .sort((a, b) => b.points - a.points)
             .map((team, index) => (
             <li key={team.name} className="flex flex-col space-y-2 bg-space-dark p-4 rounded-lg shadow-md">

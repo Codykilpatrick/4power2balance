@@ -4,6 +4,7 @@ const SwissBracket = ({ results }) => {
   // Group teams by `currentPair`
   const matchGroups = results.reduce((groups, result) => {
     const pair = result.currentPair;
+    if (pair == null) return groups; // <--- SKIP null or undefined
     if (!groups[pair]) groups[pair] = [];
     groups[pair].push(result);
     return groups;

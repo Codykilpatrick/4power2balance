@@ -11,7 +11,7 @@ const playerData = [
 
   { name: 'Zabik2', EP: 29, matchesPlayed: 4, wins: 4, currentTeam: 'LirTnolikSimcler2xdd' },
   { name: 'Trolik', EP: 29, matchesPlayed: 4, wins: 4, currentTeam: 'LirTnolikSimcler2xdd' },
-  { name: 'Lear_the_cat', EP: 29, matchesPlayed: 4, wins: 4, currentTeam: 'LirTnolikSimcler2xdd' },
+  { name: 'Lear_the_cat', EP: 29, matchesPlayed: 4, wins: 4, currentTeam: '-' },
 
   { name: 'Air', EP: 12, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
   { name: 'aqua995', EP: 12, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },

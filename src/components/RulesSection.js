@@ -73,11 +73,11 @@ function RulesSection() {
 
       <CollapsibleSection title="Prize Pool">
         <ul className="list-disc list-inside space-y-2">
-          <li>1st: 54€ 18EP</li>
-          <li>2nd: 36€ 12EP</li>
-          <li>3rd: 30€ 6EP</li>
-          <li>4th: 24€ 2EP</li>
-          <li>Top 8: 18€ 1EP</li>
+          <li>1st: 54€ 27EP</li>
+          <li>2nd: 36€ 18EP</li>
+          <li>3rd: 30€ 9EP</li>
+          <li>4th: 24€ 3EP</li>
+          <li>Top 8: 18€ 2EP</li>
         </ul>
         <p className="mt-4">
           Additional points for a leaderboard will be awarded based on wins and placements. If the series gains traction, this will highlight top performers over a longer period.

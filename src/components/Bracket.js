@@ -11,27 +11,7 @@ const SwissBracket = ({ results }) => {
 
   return (
     <div className="space-y-8">
-      <div className="mt-12">
-        <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">Standings</h2>
-        <ul className="space-y-4">
-          {results
-           .filter((team) => team.currentPair !== null && team.currentPair !== undefined)
-            .sort((a, b) => b.points - a.points)
-            .map((team, index) => (
-            <li key={team.name} className="flex flex-col space-y-2 bg-space-dark p-4 rounded-lg shadow-md">
-              <div className="flex justify-between items-center text-starlight-white text-lg font-medium">
-                <span>{index + 1}. {team.name}</span>
-                <span className="bg-ionized-blue text-space-dark px-3 py-1 rounded-full text-sm font-bold">
-                  {team.points} points
-                </span>
-              </div>
-              <div className="text-sm text-metallic-grey">
-                Matches Played: {team.matchesPlayed}
-              </div>
-            </li>
-          ))}
-        </ul>
-      </div>
+      
       <div className="space-y-6">
         <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">Matches</h2>
         {Object.keys(matchGroups).map((pairKey) => (
@@ -53,7 +33,27 @@ const SwissBracket = ({ results }) => {
           </div>
         ))}
       </div>
-      
+      <div className="mt-12">
+        <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">Standings</h2>
+        <ul className="space-y-4">
+          {results
+           .filter((team) => team.currentPair !== null && team.currentPair !== undefined)
+            .sort((a, b) => b.points - a.points)
+            .map((team, index) => (
+            <li key={team.name} className="flex flex-col space-y-2 bg-space-dark p-4 rounded-lg shadow-md">
+              <div className="flex justify-between items-center text-starlight-white text-lg font-medium">
+                <span>{index + 1}. {team.name}</span>
+                <span className="bg-ionized-blue text-space-dark px-3 py-1 rounded-full text-sm font-bold">
+                  {team.points} points
+                </span>
+              </div>
+              <div className="text-sm text-metallic-grey">
+                Matches Played: {team.matchesPlayed}
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

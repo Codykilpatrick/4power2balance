@@ -32,8 +32,15 @@ const playerData = [
   { name: 'AceFaxon', EP: 3, matchesPlayed: 1, wins: 0, currentTeam: 'Suneaters' },
 
   { name: 'fruitwing', EP: 12, matchesPlayed: 4, wins: 1, currentTeam: 'Panda' },
-  { name: 'Fenix盛', EP: 12, matchesPlayed: 4, wins: 1, currentTeam: 'The Singer' },
   { name: '风 暴 领 域 大 神', EP: 12, matchesPlayed: 4, wins: 1, currentTeam: 'Panda' },
+
+  { name: 'Fenix盛', EP: 12, matchesPlayed: 4, wins: 1, currentTeam: 'The Singer' },
+  { name: 'galaxenter', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },
+  { name: 'lagenaz', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },
+  { name: 'UED', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },  
+
+  { name: 'dannyvye.com', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
+  { name: 'MonMon', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
 
   { name: 'CCC小白', EP: 19, matchesPlayed: 4, wins: 3, currentTeam: 'Loong' },
   { name: 'X-Wing', EP: 19, matchesPlayed: 4, wins: 3, currentTeam: 'Loong' },

@@ -3,7 +3,6 @@
 const playerData = [
   { name: 'davy', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'two eggs, one kol and a pure eradica' },
   { name: 'bikaruu', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'two eggs, one kol and a pure eradica' },
-  { name: 'holo_icy_holo', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'two eggs, one kol and a pure eradica' },
 
   { name: 'Duckeh', EP: 11, matchesPlayed: 4, wins: 1, currentTeam: 'I`d sin for that solar empire' },
   { name: 'ncc', EP: 11, matchesPlayed: 4, wins: 1, currentTeam: 'I`d sin for that solar empire' },
@@ -41,6 +40,7 @@ const playerData = [
 
   { name: 'dannyvye.com', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
   { name: 'MonMon', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
+  { name: 'holo_icy_holo', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'Fleet CMD' },
 
   { name: 'CCC小白', EP: 19, matchesPlayed: 4, wins: 3, currentTeam: 'Loong' },
   { name: 'X-Wing', EP: 19, matchesPlayed: 4, wins: 3, currentTeam: 'Loong' },

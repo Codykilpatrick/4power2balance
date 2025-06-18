@@ -2,8 +2,8 @@
 const teamData = [
   { name: 'LirTnolikSimcler2xdd', EP: 31, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 0, currentPair: 2, matchTime: 'Sunday 15:00 CEST' },
   { name: 'Frontier Negotiator', EP: 17, points: 3, wins: 1, matchesPlayed: 1, currentMatchesPlayed: 0, currentPair: 4, matchTime: 'BYE' },
-  { name: 'The Singer', EP: 5, points: 3, wins: 1, matchesPlayed: 1, currentMatchesPlayed: 0, currentPair: 1, matchTime: 'Sunday 15:00 CEST' },
-  { name: 'Fleet CMD', EP: 2, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 0, currentPair: 1, matchTime: 'Sunday 15:00 CEST' },
+  { name: 'The Singer', EP: 5, points: 3, wins: 1, matchesPlayed: 1, currentMatchesPlayed: 0, currentPair: 1, matchTime: 'Thursday 22:00 BJT' },
+  { name: 'Fleet CMD', EP: 2, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 0, currentPair: 1, matchTime: 'Thursday 22:00 BJT' },
   { name: 'TooSlow', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 2, matchTime: 'Sunday 15:00 CEST' },
   
   { name: 'I`d sin for that solar empire', EP: 11, points: 3, wins: 1, matchesPlayed: 4, currentMatchesPlayed: 4, currentPair: null, matchTime: 'I`d sin for that solar empire won' },

@@ -12,9 +12,6 @@ const playerData = [
   { name: 'Trolik', EP: 31, matchesPlayed: 4, wins: 4, currentTeam: 'LirTnolikSimcler2xdd' },
   { name: 'Lear_the_cat', EP: 29, matchesPlayed: 4, wins: 4, currentTeam: '-' },
 
-  { name: 'Air', EP: 42, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
-  { name: 'aqua995', EP: 42, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
-  { name: 'Fellingus', EP: 39, matchesPlayed: 3, wins: 1, currentTeam: 'Frontier Negotiator' },
 
   { name: 'mathematico', EP: 23, matchesPlayed: 4, wins: 3, currentTeam: 'The nameless ones' },
   { name: 'auqia', EP: 23, matchesPlayed: 4, wins: 3, currentTeam: 'The nameless ones' },
@@ -52,6 +49,11 @@ const playerData = [
   { name: 'SilasPT', EP: 6, matchesPlayed: 3, wins: 0, currentTeam: 'ISS' },
   { name: 'pakss', EP: 6, matchesPlayed: 3, wins: 0, currentTeam: 'ISS' },
   { name: 'kabianmazorca', EP: 6, matchesPlayed: 3, wins: 0, currentTeam: 'ISS' },
+
+  
+  { name: 'Air', EP: 42, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
+  { name: 'aqua995', EP: 42, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
+  { name: 'Fellingus', EP: 39, matchesPlayed: 3, wins: 1, currentTeam: 'Frontier Negotiator' },
 ];
 
 export default playerData;

@@ -13,7 +13,7 @@ const SwissBracket = ({ results }) => {
   return (
     <div className="space-y-8">
       
-      /*<div className="space-y-6">
+      <div className="space-y-6">
         <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2">Matches</h2>
         {Object.keys(matchGroups).map((pairKey) => (
           <div key={pairKey} className="bg-space-dark p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 outline outline-starlight-white">
@@ -54,7 +54,7 @@ const SwissBracket = ({ results }) => {
             </li>
           ))}
         </ul>
-      </div>*/
+      </div>
     </div>
   );
 };

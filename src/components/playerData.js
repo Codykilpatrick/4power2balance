@@ -12,9 +12,9 @@ const playerData = [
   { name: 'Trolik', EP: 31, matchesPlayed: 4, wins: 4, currentTeam: 'LirTnolikSimcler2xdd' },
   { name: 'Lear_the_cat', EP: 29, matchesPlayed: 4, wins: 4, currentTeam: '-' },
 
-  { name: 'Air', EP: 17, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
-  { name: 'aqua995', EP: 17, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
-  { name: 'Fellingus', EP: 15, matchesPlayed: 3, wins: 1, currentTeam: 'Frontier Negotiator' },
+  { name: 'Air', EP: 42, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
+  { name: 'aqua995', EP: 42, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
+  { name: 'Fellingus', EP: 39, matchesPlayed: 3, wins: 1, currentTeam: 'Frontier Negotiator' },
 
   { name: 'mathematico', EP: 23, matchesPlayed: 4, wins: 3, currentTeam: 'The nameless ones' },
   { name: 'auqia', EP: 23, matchesPlayed: 4, wins: 3, currentTeam: 'The nameless ones' },
@@ -33,17 +33,17 @@ const playerData = [
   { name: 'fruitwing', EP: 12, matchesPlayed: 4, wins: 1, currentTeam: 'Panda' },
   { name: '风 暴 领 域 大 神', EP: 12, matchesPlayed: 4, wins: 1, currentTeam: 'Panda' },
 
-  { name: 'Fenix盛', EP: 17, matchesPlayed: 4, wins: 1, currentTeam: 'The Singer' },
-  { name: 'galaxenter', EP: 5, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },
-  { name: 'lagenaz', EP: 5, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },
-  { name: 'UED', EP: 5, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },  
+  { name: 'Fenix盛', EP: 54, matchesPlayed: 4, wins: 1, currentTeam: 'The Singer' },
+  { name: 'galaxenter', EP: 42, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },
+  { name: 'lagenaz', EP: 42, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },
+  { name: 'UED', EP: 42, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },  
 
-  { name: 'dannyvye.com', EP: 2, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
-  { name: 'MonMon', EP: 2, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
-  { name: 'holo_icy_holo', EP: 16, matchesPlayed: 4, wins: 2, currentTeam: 'Fleet CMD' },
+  { name: 'dannyvye.com', EP: 18, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
+  { name: 'MonMon', EP: 18, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
+  { name: 'holo_icy_holo', EP: 32, matchesPlayed: 4, wins: 2, currentTeam: 'Fleet CMD' },
 
-  { name: 'Marvin', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },
-  { name: 'Harkon Thorson', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },
+  { name: 'Marvin', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },
+  { name: 'Harkon Thorson', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },
 
   { name: 'CCC小白', EP: 19, matchesPlayed: 4, wins: 3, currentTeam: 'Loong' },
   { name: 'X-Wing', EP: 19, matchesPlayed: 4, wins: 3, currentTeam: 'Loong' },

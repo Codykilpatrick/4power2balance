@@ -1,8 +1,8 @@
 // src/resultsData.js
 const teamData = [
   { name: 'LirTnolikSimcler2xdd', EP: 31, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 0, currentPair: null, matchTime: 'Sunday 15:00 CEST' },
-  { name: 'Frontier Negotiator', EP: 42, points: 3, wins: 1, matchesPlayed: 1, currentMatchesPlayed: 0, currentPair: null, matchTime: 'BYE' },
   { name: 'The Singer', EP: 42, points: 3, wins: 1, matchesPlayed: 1, currentMatchesPlayed: 0, currentPair: null, matchTime: 'Thursday 22:00 BJT' },
+  { name: 'Frontier Negotiator', EP: 42, points: 3, wins: 1, matchesPlayed: 1, currentMatchesPlayed: 0, currentPair: null, matchTime: 'BYE' },
   { name: 'Fleet CMD', EP: 18, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 0, currentPair: null, matchTime: 'Thursday 22:00 BJT' },
   { name: 'TooSlow', EP: 11, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: null, matchTime: 'Sunday 15:00 CEST' },
   

@@ -37,7 +37,7 @@ const playerData = [
 
   { name: 'dannyvye.com', EP: 18, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
   { name: 'MonMon', EP: 18, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
-  { name: 'holo_icy_holo', EP: 32, matchesPlayed: 4, wins: 2, currentTeam: 'Fleet CMD' },
+  { name: 'holo_icy_holo', EP: 32, matchesPlayed: 4, wins: 2, currentTeam: '' },
 
   { name: 'Marvin', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },
   { name: 'Harkon Thorson', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },

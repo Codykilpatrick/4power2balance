@@ -1,6 +1,10 @@
 // src/resultsData.js
 
 const playerData = [
+  
+  { name: 'Ciber_Monke', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'TheHermits' },
+  { name: '.bintro', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'TheHermits' },
+  
   { name: 'davy', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'two eggs, one kol and a pure eradica' },
   { name: 'bikaruu', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'two eggs, one kol and a pure eradica' },
 

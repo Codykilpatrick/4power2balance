@@ -2,6 +2,9 @@
 
 const playerData = [
   
+  { name: 'Mephissadiablo', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Rage against the Aliens' },
+  { name: 'raaf12', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Rage against the Aliens' },
+  
   { name: 'Ciber_Monke', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'TheHermits' },
   { name: '.bintro', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'TheHermits' },
   

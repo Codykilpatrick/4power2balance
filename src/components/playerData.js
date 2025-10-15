@@ -8,7 +8,9 @@ const playerData = [
   { name: 'Ciber_Monke', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'TheHermits' },
   { name: '.bintro', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'TheHermits' },
   
-  { name: 'davy', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'two eggs, one kol and a pure eradica' },
+  { name: 'davy', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
+  { name: 'Koi', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
+  
   { name: 'bikaruu', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'two eggs, one kol and a pure eradica' },
 
   { name: 'Duckeh', EP: 11, matchesPlayed: 4, wins: 1, currentTeam: 'I`d sin for that solar empire' },
@@ -29,7 +31,7 @@ const playerData = [
   { name: 'Crimeskin', EP: 15, matchesPlayed: 3, wins: 3, currentTeam: 'Bankstreet Boys' },
 
   { name: 'Avezearth', EP: 10, matchesPlayed: 3, wins: 2, currentTeam: '-' },
-  { name: 'Koi', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'Suneaters' },
+  
   { name: 'Kissblade', EP: 10, matchesPlayed: 3, wins: 1, currentTeam: 'Suneaters' },
   { name: 'Zergrusher/L', EP: 3, matchesPlayed: 1, wins: 0, currentTeam: 'Suneaters' },
   { name: 'AceFaxon', EP: 3, matchesPlayed: 1, wins: 0, currentTeam: 'Suneaters' },

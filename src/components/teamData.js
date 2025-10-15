@@ -18,6 +18,7 @@ const teamData = [
  
   { name: 'TheHermits', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: null, matchTime: 'Sunday 15:00 CEST' },
   { name: 'Rage against the Aliens', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: null, matchTime: 'Sunday 15:00 CEST' },
+  { name: 'Dad FPS & The Dial-Up kid', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: null, matchTime: 'Sunday 15:00 CEST' },
 ];
 
 export default teamData;

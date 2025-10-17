@@ -31,7 +31,7 @@ const playerData = [
   { name: 'Crimeskin', EP: 15, matchesPlayed: 3, wins: 3, currentTeam: 'Bankstreet Boys' },
 
   { name: 'Avezearth', EP: 10, matchesPlayed: 3, wins: 2, currentTeam: 'SOMA' },
-  { name: 'Matheus[BRz]L', EP: 10, matchesPlayed: 0, wins: 0, currentTeam: 'SOMA' },
+  { name: 'Matheus[BRz]L', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'SOMA' },
   
   { name: 'Kissblade', EP: 10, matchesPlayed: 3, wins: 1, currentTeam: 'Suneaters' },
   { name: 'Zergrusher/L', EP: 3, matchesPlayed: 1, wins: 0, currentTeam: 'Suneaters' },

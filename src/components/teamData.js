@@ -14,11 +14,11 @@ const teamData = [
   { name: 'ISS', EP: 6, points: 0, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 4, currentPair: null, matchTime: 'I`d sin for that solar empire won' },
 
  
-  { name: 'Dad FPS & The Dial-Up kid', EP: 5, points: 3, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 1, matchTime: 'Saturday 21:00 CEST' },
+  { name: 'Dad FPS & The Dial-Up kid', EP: 5, points: 3, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
   { name: 'SOMA', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 2, matchTime: 'Sunday' },
   { name: 'TheHermits', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 3, matchTime: 'Sunday' },
   { name: 'Rage against the Aliens', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 3, matchTime: 'Sunday' },
-  { name: 'Frontier Negotiator', EP: 44, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 1, matchTime: 'Saturday 21:00 CEST' },
+  { name: 'Frontier Negotiator', EP: 44, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
   { name: 'Fleet CMD', EP: 18, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 2, matchTime: 'Sunday' },
 ];
 

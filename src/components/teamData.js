@@ -15,11 +15,11 @@ const teamData = [
 
  
   { name: 'Dad FPS & The Dial-Up kid', EP: 5, points: 3, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
-  { name: 'SOMA', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 2, matchTime: 'Sunday' },
-  { name: 'TheHermits', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 3, matchTime: 'Sunday' },
-  { name: 'Rage against the Aliens', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 3, matchTime: 'Sunday' },
+  { name: 'SOMA', EP: 5, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 2, matchTime: 'SOMA won' },
+  { name: 'TheHermits', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 3, matchTime: 'Sunday 10:00 CEST' },
+  { name: 'Rage against the Aliens', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 3, matchTime: 'Sunday 10:00 CEST' },
   { name: 'Frontier Negotiator', EP: 44, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
-  { name: 'Fleet CMD', EP: 18, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 2, matchTime: 'Sunday' },
+  { name: 'Fleet CMD', EP: 20, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 2, matchTime: 'SOMA won' },
 ];
 
 export default teamData;

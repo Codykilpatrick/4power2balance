@@ -2,14 +2,14 @@
 
 const playerData = [
   
-  { name: 'Mephissadiablo', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Rage against the Aliens' },
-  { name: 'raaf12', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Rage against the Aliens' },
+  { name: 'Mephissadiablo', EP: 2, matchesPlayed: 0, wins: 0, currentTeam: 'Rage against the Aliens' },
+  { name: 'raaf12', EP: 2, matchesPlayed: 0, wins: 0, currentTeam: 'Rage against the Aliens' },
   
-  { name: 'Ciber_Monke', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'TheHermits' },
-  { name: '.bintro', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'TheHermits' },
+  { name: 'Ciber_Monke', EP: 5, matchesPlayed: 0, wins: 0, currentTeam: 'TheHermits' },
+  { name: '.bintro', EP: 5, matchesPlayed: 0, wins: 0, currentTeam: 'TheHermits' },
   
-  { name: 'davy', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
-  { name: 'Koi', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
+  { name: 'davy', EP: 19, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
+  { name: 'Koi', EP: 19, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
   
   { name: 'bikaruu', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'two eggs, one kol and a pure eradica' },
 
@@ -30,8 +30,8 @@ const playerData = [
   { name: 'doucit', EP: 20, matchesPlayed: 4, wins: 3, currentTeam: 'Bankstreet Boys' },
   { name: 'Crimeskin', EP: 15, matchesPlayed: 3, wins: 3, currentTeam: 'Bankstreet Boys' },
 
-  { name: 'Avezearth', EP: 10, matchesPlayed: 3, wins: 2, currentTeam: 'SOMA' },
-  { name: 'Matheus[BRz]L', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'SOMA' },
+  { name: 'Avezearth', EP: 15, matchesPlayed: 3, wins: 2, currentTeam: 'SOMA' },
+  { name: 'Matheus[BRz]L', EP: 5, matchesPlayed: 0, wins: 0, currentTeam: 'SOMA' },
   
   { name: 'Kissblade', EP: 10, matchesPlayed: 3, wins: 1, currentTeam: 'Suneaters' },
   { name: 'Zergrusher/L', EP: 3, matchesPlayed: 1, wins: 0, currentTeam: 'Suneaters' },
@@ -45,8 +45,8 @@ const playerData = [
   { name: 'lagenaz', EP: 42, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },
   { name: 'UED', EP: 42, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },  
 
-  { name: 'dannyvye.com', EP: 18, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
-  { name: 'MonMon', EP: 18, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
+  { name: 'dannyvye.com', EP: 20, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
+  { name: 'MonMon', EP: 20, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
   { name: 'holo_icy_holo', EP: 32, matchesPlayed: 4, wins: 2, currentTeam: '' },
 
   { name: 'Marvin', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },

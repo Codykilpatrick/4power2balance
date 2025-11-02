@@ -62,8 +62,8 @@ const playerData = [
 
   
   { name: 'Air', EP: 42, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
-  { name: 'aqua995', EP: 42, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
-  { name: 'Fellingus', EP: 39, matchesPlayed: 3, wins: 1, currentTeam: 'Frontier Negotiator' },
+  { name: 'aqua995', EP: 44, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
+  { name: 'Fellingus', EP: 41, matchesPlayed: 3, wins: 1, currentTeam: 'Frontier Negotiator' },
 ];
 
 export default playerData;

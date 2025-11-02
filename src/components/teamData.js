@@ -16,8 +16,8 @@ const teamData = [
  
   { name: 'Dad FPS & The Dial-Up kid', EP: 5, points: 3, wins: 1, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
   { name: 'SOMA', EP: 5, points: 3, wins: 1, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 2, matchTime: 'SOMA won' },
-  { name: 'TheHermits', EP: 5, points: 3, wins: 1, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 3, matchTime: 'Sunday 10:00 CEST' },
-  { name: 'Rage against the Aliens', EP: 2, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 3, matchTime: 'Sunday 10:00 CEST' },
+  { name: 'TheHermits', EP: 5, points: 3, wins: 1, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 3, matchTime: 'TheHermits won' },
+  { name: 'Rage against the Aliens', EP: 2, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 3, matchTime: 'TheHermits won' },
   { name: 'Frontier Negotiator', EP: 44, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
   { name: 'Fleet CMD', EP: 22, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 2, matchTime: 'SOMA won' },
 ];

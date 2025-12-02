@@ -16,9 +16,10 @@ function App() {
       <Header />
       <main className="flex-grow container mx-auto p-4 tet">
         
-        /*<SwissBracket results={results} */
+        
         <div className="Leaderboard"> <Leaderboard /> </div>
         <RulesSection />
+        <SwissBracket results={results}
       </main>
       <Footer />
     </div>

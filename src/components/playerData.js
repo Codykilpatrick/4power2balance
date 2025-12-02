@@ -8,8 +8,8 @@ const playerData = [
   { name: 'Ciber_Monke', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TheHermits' },
   { name: '.bintro', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TheHermits' },
   
-  { name: 'davy', EP: 58, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
-  { name: 'Koi', EP: 58, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
+  { name: 'davy', EP: 56, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
+  { name: 'Koi', EP: 56, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
   
   { name: 'bikaruu', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'two eggs, one kol and a pure eradica' },
 
@@ -45,8 +45,8 @@ const playerData = [
   { name: 'lagenaz', EP: 42, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },
   { name: 'UED', EP: 42, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },  
 
-  { name: 'dannyvye.com', EP: 22, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
-  { name: 'MonMon', EP: 22, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
+  { name: 'dannyvye.com', EP: 30, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
+  { name: 'MonMon', EP: 30, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
   { name: 'holo_icy_holo', EP: 32, matchesPlayed: 4, wins: 2, currentTeam: '' },
 
   { name: 'Marvin', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },
@@ -62,8 +62,8 @@ const playerData = [
 
   
   { name: 'Air', EP: 42, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
-  { name: 'aqua995', EP: 65, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
-  { name: 'Fellingus', EP: 62, matchesPlayed: 3, wins: 1, currentTeam: 'Frontier Negotiator' },
+  { name: 'aqua995', EP: 63, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
+  { name: 'Fellingus', EP: 60, matchesPlayed: 3, wins: 1, currentTeam: 'Frontier Negotiator' },
 ];
 
 export default playerData;

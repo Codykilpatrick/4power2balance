@@ -20,6 +20,10 @@ const teamData = [
   { name: 'Rage against the Aliens', EP: 8, points: 0, wins: 0, matchesPlayed: 2, currentMatchesPlayed: 2, currentPair: 3, matchTime: 'Sunday' },
   { name: 'Frontier Negotiator', EP: 63, points: 3, wins: 1, matchesPlayed: 2, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Sunday' },
   { name: 'Fleet CMD', EP: 32, points: 0, wins: 0, matchesPlayed: 2, currentMatchesPlayed: 2, currentPair: 3, matchTime: 'Sunday' },
+
+  
+  { name: 'Expandieren und Auslöschen', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: null, matchTime: 'Sunday' },
+  { name: 'Missile knows where it isnt', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: null, matchTime: 'Sunday' },
 ];
 
 export default teamData;

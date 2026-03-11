@@ -51,6 +51,9 @@ const playerData = [
 
   { name: 'Marvin', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },
   { name: 'Harkon Thorson', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },
+  
+  { name: 'Marvin', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },
+  { name: 'Harkon Thorson', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },
 
   { name: 'CCC小白', EP: 19, matchesPlayed: 4, wins: 3, currentTeam: 'Loong' },
   { name: 'X-Wing', EP: 19, matchesPlayed: 4, wins: 3, currentTeam: 'Loong' },
@@ -59,6 +62,12 @@ const playerData = [
   { name: 'SilasPT', EP: 6, matchesPlayed: 3, wins: 0, currentTeam: 'ISS' },
   { name: 'pakss', EP: 6, matchesPlayed: 3, wins: 0, currentTeam: 'ISS' },
   { name: 'kabianmazorca', EP: 6, matchesPlayed: 3, wins: 0, currentTeam: 'ISS' },
+  
+  { name: 'Geiger', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Expandieren und Auslöschen' },
+  { name: 'DerGrubengräber', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Expandieren und Auslöschen' },
+  
+  { name: 'DrTechman42', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Missile knows where it isnt' },
+  { name: 'Yuki', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Missile knows where it isnt' },
 
   
   { name: 'Air', EP: 42, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },

@@ -6,7 +6,7 @@ const teamData = [
   { name: 'SOMA', EP: 30, points: 6, wins: 2, matchesPlayed: 2, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'Sunday' },
   { name: 'TheHermits', EP: 11, points: 3, wins: 1, matchesPlayed: 2, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Sunday' },
   { name: 'Rage against the Aliens', EP: 8, points: 0, wins: 0, matchesPlayed: 2, currentMatchesPlayed: 2, currentPair: 3, matchTime: 'Sunday' },
-  { name: 'Frontier Negotiator', EP: 63, points: 3, wins: 1, matchesPlayed: 2, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Sunday' },
+  { name: 'ThirdFeather', EP: 63, points: 3, wins: 1, matchesPlayed: 2, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Sunday' },
   { name: 'Fleet CMD', EP: 32, points: 0, wins: 0, matchesPlayed: 2, currentMatchesPlayed: 2, currentPair: 3, matchTime: 'Sunday' },
   
   { name: 'LirTnolikSimcler2xdd', EP: 31, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: null, matchTime: 'Sunday 15:00 CEST' },

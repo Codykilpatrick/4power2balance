@@ -70,9 +70,9 @@ const playerData = [
   { name: 'Yuki', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Missile knows where it isnt' },
 
   
-  { name: 'Air', EP: 42, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
-  { name: 'aqua995', EP: 63, matchesPlayed: 4, wins: 1, currentTeam: 'Frontier Negotiator' },
-  { name: 'Fellingus', EP: 60, matchesPlayed: 3, wins: 1, currentTeam: 'Frontier Negotiator' },
+  { name: 'Air', EP: 42, matchesPlayed: 4, wins: 1, currentTeam: 'ThirdFeather' },
+  { name: 'aqua995', EP: 63, matchesPlayed: 4, wins: 1, currentTeam: 'ThirdFeather' },
+  { name: 'Fellingus', EP: 60, matchesPlayed: 3, wins: 1, currentTeam: 'ThirdFeather' },
 ];
 
 export default playerData;

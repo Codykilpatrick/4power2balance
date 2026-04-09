@@ -27,6 +27,7 @@ const teamData = [
   
   { name: 'Expandieren und Auslöschen', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: null, matchTime: 'Sunday' },
   { name: 'Missile knows where it isnt', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: null, matchTime: 'Sunday' },
+  { name: 'NauseousEmoji', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: null, matchTime: 'Sunday' },
 ];
 
 export default teamData;

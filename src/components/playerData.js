@@ -66,6 +66,9 @@ const playerData = [
   { name: 'DrTechman42', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Missile knows where it isnt' },
   { name: 'Yuki', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Missile knows where it isnt' },
 
+  { name: 'MisterAG', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'NauseousEmoji' },
+  { name: 'remora-cesarean', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'NauseousEmoji' },
+
   
   { name: 'Air', EP: 42, matchesPlayed: 4, wins: 1, currentTeam: 'ThirdFeather' },
   { name: 'aqua995', EP: 63, matchesPlayed: 4, wins: 1, currentTeam: 'ThirdFeather' },

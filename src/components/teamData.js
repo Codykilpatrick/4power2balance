@@ -23,11 +23,11 @@ const teamData = [
 
   
   { name: 'Dad FPS & The Dial-Up kid', EP: 42, points: 3, wins: 1, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
-  { name: 'ThirdFeather', EP: 63, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 3, matchTime: 'Saturday 18:30 CEST' },
+  { name: 'ThirdFeather', EP: 63, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 3, matchTime: 'Saturday 20:30 CEST' },
   { name: 'Fleet CMD', EP: 32, points: 3, wins: 1, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 2, matchTime: 'Fleet CMD won' },
   { name: 'Expandieren und Auslöschen', EP: 0, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
-  { name: 'Missile knows where it isnt', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 2, matchTime: 'Saturday 18:30 CEST' },
-  { name: 'NauseousEmoji', EP: 0, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 3, matchTime: 'Fleet CMD won' },
+  { name: 'Missile knows where it isnt', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 3, currentPair: 2, matchTime: 'Saturday 20:30 CEST' },
+  { name: 'NauseousEmoji', EP: 0, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 1, currentPair: 2, matchTime: 'Fleet CMD won' },
 ];
 
 export default teamData;

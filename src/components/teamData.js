@@ -24,8 +24,8 @@ const teamData = [
   
   { name: 'Dad FPS & The Dial-Up kid', EP: 42, points: 3, wins: 1, matchesPlayed: 1, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'Sunday' },
   { name: 'ThirdFeather', EP: 63, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 2, currentPair: 3, matchTime: 'Sunday 14:30 CEST' },
-  { name: 'Fleet CMD', EP: 32, points: 3, wins: 1, matchesPlayed: 1, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Sunday' },
-  { name: 'Expandieren und Auslöschen', EP: 0, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Sunday' },
+  { name: 'Fleet CMD', EP: 32, points: 3, wins: 1, matchesPlayed: 1, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Saturday 23.05.' },
+  { name: 'Expandieren und Auslöschen', EP: 0, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Saturday 23.05.' },
   { name: 'Missile knows where it isnt', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'Sunday' },
   { name: 'NauseousEmoji', EP: 0, points: 0, wins: 0, matchesPlayed: 1, currentMatchesPlayed: 2, currentPair: 3, matchTime: 'Sunday 14:30 CEST' },
 ];

@@ -22,11 +22,11 @@ const teamData = [
  
 
   
-  { name: 'Dad FPS & The Dial-Up kid', EP: 42, points: 3, wins: 3, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
-  { name: 'ThirdFeather', EP: 63, points: 0, wins: 1, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 3, matchTime: '1:1' },
+  { name: 'Dad FPS & The Dial-Up kid', EP: 42, points: 9, wins: 3, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
+  { name: 'ThirdFeather', EP: 63, points: 3, wins: 1, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 3, matchTime: '1:1' },
   { name: 'Fleet CMD', EP: 32, points: 3, wins: 1, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
-  { name: 'Expandieren und Auslöschen', EP: 0, points: 0, wins: 2, matchesPlayed: 3, currentMatchesPlayed: 3, currentPair: 3, matchTime: '1:1' },
-  { name: 'Missile knows where it isnt', EP: 0, points: 0, wins: 2, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Missile knows where it isnt won' },
+  { name: 'Expandieren und Auslöschen', EP: 0, points: 6, wins: 2, matchesPlayed: 3, currentMatchesPlayed: 3, currentPair: 3, matchTime: '1:1' },
+  { name: 'Missile knows where it isnt', EP: 0, points: 6, wins: 2, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Missile knows where it isnt won' },
   { name: 'NauseousEmoji', EP: 0, points: 0, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Missile knows where it isnt won' },
 ];
 

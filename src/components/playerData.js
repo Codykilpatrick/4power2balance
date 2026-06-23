@@ -8,8 +8,8 @@ const playerData = [
   { name: 'Ciber_Monke', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TheHermits' },
   { name: '.bintro', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TheHermits' },
   
-  { name: 'davy', EP: 56, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
-  { name: 'Koi', EP: 56, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
+  { name: 'davy', EP: 103, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
+  { name: 'Koi', EP: 103, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
   
   { name: 'bikaruu', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'two eggs, one kol and a pure eradica' },
 
@@ -45,9 +45,9 @@ const playerData = [
   { name: 'lagenaz', EP: 42, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },
   { name: 'UED', EP: 42, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },  
 
-  { name: 'dannyvye.com', EP: 30, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
-  { name: 'MonMon', EP: 30, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
-  { name: 'holo_icy_holo', EP: 32, matchesPlayed: 4, wins: 2, currentTeam: 'Fleet CMD' },
+  { name: 'dannyvye.com', EP: 44, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
+  { name: 'MonMon', EP: 44, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
+  { name: 'holo_icy_holo', EP: 39, matchesPlayed: 4, wins: 2, currentTeam: 'Fleet CMD' },
 
   { name: 'Marvin', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },
   { name: 'Harkon Thorson', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },
@@ -60,19 +60,19 @@ const playerData = [
   { name: 'pakss', EP: 6, matchesPlayed: 3, wins: 0, currentTeam: 'ISS' },
   { name: 'kabianmazorca', EP: 6, matchesPlayed: 3, wins: 0, currentTeam: 'ISS' },
   
-  { name: 'Geiger', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Expandieren und Auslöschen' },
-  { name: 'DerGrubengräber', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Expandieren und Auslöschen' },
+  { name: 'Geiger', EP: 26, matchesPlayed: 0, wins: 0, currentTeam: 'Expandieren und Auslöschen' },
+  { name: 'DerGrubengräber', EP: 26, matchesPlayed: 0, wins: 0, currentTeam: 'Expandieren und Auslöschen' },
   
-  { name: 'DrTechman42', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Missile knows where it isnt' },
-  { name: 'Yuki', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Missile knows where it isnt' },
+  { name: 'DrTechman42', EP: 35, matchesPlayed: 0, wins: 0, currentTeam: 'Missile knows where it isnt' },
+  { name: 'Yuki', EP: 35, matchesPlayed: 0, wins: 0, currentTeam: 'Missile knows where it isnt' },
 
-  { name: 'MisterAG', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'NauseousEmoji' },
-  { name: 'remora-cesarean', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'NauseousEmoji' },
+  { name: 'MisterAG', EP: 10, matchesPlayed: 0, wins: 0, currentTeam: 'NauseousEmoji' },
+  { name: 'remora-cesarean', EP: 10, matchesPlayed: 0, wins: 0, currentTeam: 'NauseousEmoji' },
 
   
   { name: 'Air', EP: 42, matchesPlayed: 4, wins: 1, currentTeam: 'ThirdFeather' },
-  { name: 'aqua995', EP: 63, matchesPlayed: 4, wins: 1, currentTeam: 'ThirdFeather' },
-  { name: 'Fellingus', EP: 60, matchesPlayed: 3, wins: 1, currentTeam: 'ThirdFeather' },
+  { name: 'aqua995', EP: 76, matchesPlayed: 4, wins: 1, currentTeam: 'ThirdFeather' },
+  { name: 'Fellingus', EP: 73, matchesPlayed: 3, wins: 1, currentTeam: 'ThirdFeather' },
 ];
 
 export default playerData;

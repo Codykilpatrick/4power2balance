@@ -20,6 +20,7 @@ function App() {
         <SwissBracket results={results} />
         <div className="Leaderboard"> <Leaderboard /> </div>
         <RulesSection />
+        <SwissBracket results={results} />
       </main>
       <Footer />
     </div>

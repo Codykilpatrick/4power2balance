@@ -22,12 +22,12 @@ const teamData = [
  
 
   
-  { name: 'Dad FPS & The Dial-Up kid', EP: 89, points: 9, wins: 3, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
-  { name: 'ThirdFeather', EP: 76, points: 3, wins: 1, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 3, matchTime: 'Expandieren und Auslöschen won' },
-  { name: 'Fleet CMD', EP: 46, points: 3, wins: 1, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
-  { name: 'Expandieren und Auslöschen', EP: 26, points: 6, wins: 2, matchesPlayed: 3, currentMatchesPlayed: 3, currentPair: 3, matchTime: 'Expandieren und Auslöschen won' },
-  { name: 'Missile knows where it isnt', EP: 35, points: 6, wins: 2, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Missile knows where it isnt won' },
-  { name: 'NauseousEmoji', EP: 10, points: 0, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Missile knows where it isnt won' },
+  { name: 'Dad FPS & The Dial-Up kid', EP: 89, points: 12, wins: 4, matchesPlayed: 4, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
+  { name: 'ThirdFeather', EP: 76, points: 3, wins: 1, matchesPlayed: 4, currentMatchesPlayed: 2, currentPair: 3, matchTime: 'Expandieren und Auslöschen won' },
+  { name: 'Fleet CMD', EP: 46, points: 3, wins: 1, matchesPlayed: 4, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
+  { name: 'Expandieren und Auslöschen', EP: 26, points: 9, wins: 3, matchesPlayed: 4, currentMatchesPlayed: 3, currentPair: 3, matchTime: 'Expandieren und Auslöschen won' },
+  { name: 'Missile knows where it isnt', EP: 35, points: 9, wins: 3, matchesPlayed: 4, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Missile knows where it isnt won' },
+  { name: 'NauseousEmoji', EP: 10, points: 0, wins: 0, matchesPlayed: 4, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Missile knows where it isnt won' },
 ];
 
 export default teamData;

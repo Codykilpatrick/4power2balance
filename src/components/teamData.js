@@ -18,7 +18,7 @@ const teamData = [
   { name: 'Panda', EP: 12, points: 3, wins: 1, matchesPlayed: 4, currentMatchesPlayed: 4, currentPair: null, matchTime: 'Bankstreet Boys won' },
   { name: 'Loong', EP: 19, points: 9, wins: 3, matchesPlayed: 4, currentMatchesPlayed: 4, currentPair: null, matchTime: 'Loong won' },
   { name: 'ISS', EP: 6, points: 0, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 4, currentPair: null, matchTime: 'I`d sin for that solar empire won' },
-  { name: 'Expandieren und Auslöschen', EP: 26, points: 9, wins: 3, matchesPlayed: 4, currentMatchesPlayed: 3, currentPair: 3, matchTime: 'Expandieren und Auslöschen won' },
+  { name: 'Expandieren und Auslöschen', EP: 26, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: null, matchTime: 'Expandieren und Auslöschen won' },
 
  
 

@@ -75,11 +75,15 @@ const playerData = [
 
   { name: 'MisterAG', EP: 10, matchesPlayed: 0, wins: 0, currentTeam: 'NauseousEmoji' },
   { name: 'remora-cesarean', EP: 10, matchesPlayed: 0, wins: 0, currentTeam: 'NauseousEmoji' },
-
+  
+  { name: 'Stangdank', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Fixed or random' },
+  { name: 'Sel de Guérande', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Fixed or random' },
   
   { name: 'Air', EP: 42, matchesPlayed: 4, wins: 1, currentTeam: 'ThirdFeather' },
   { name: 'aqua995', EP: 76, matchesPlayed: 4, wins: 1, currentTeam: 'ThirdFeather' },
   { name: 'Fellingus', EP: 73, matchesPlayed: 3, wins: 1, currentTeam: 'ThirdFeather' },
+
+  
 ];
 
 export default playerData;

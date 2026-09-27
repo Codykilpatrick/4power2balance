@@ -18,16 +18,19 @@ const teamData = [
   { name: 'Panda', EP: 12, points: 3, wins: 1, matchesPlayed: 4, currentMatchesPlayed: 4, currentPair: null, matchTime: 'Bankstreet Boys won' },
   { name: 'Loong', EP: 19, points: 9, wins: 3, matchesPlayed: 4, currentMatchesPlayed: 4, currentPair: null, matchTime: 'Loong won' },
   { name: 'ISS', EP: 6, points: 0, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 4, currentPair: null, matchTime: 'I`d sin for that solar empire won' },
+  { name: 'Expandieren und Auslöschen', EP: 26, points: 9, wins: 3, matchesPlayed: 4, currentMatchesPlayed: 3, currentPair: 3, matchTime: 'Expandieren und Auslöschen won' },
 
  
 
   
-  { name: 'Dad FPS & The Dial-Up kid', EP: 89, points: 12, wins: 4, matchesPlayed: 4, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
-  { name: 'ThirdFeather', EP: 76, points: 3, wins: 1, matchesPlayed: 4, currentMatchesPlayed: 2, currentPair: 3, matchTime: 'Expandieren und Auslöschen won' },
-  { name: 'Fleet CMD', EP: 46, points: 3, wins: 1, matchesPlayed: 4, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'Dad FPS & The Dial-Up kid won' },
-  { name: 'Expandieren und Auslöschen', EP: 26, points: 9, wins: 3, matchesPlayed: 4, currentMatchesPlayed: 3, currentPair: 3, matchTime: 'Expandieren und Auslöschen won' },
-  { name: 'Missile knows where it isnt', EP: 35, points: 9, wins: 3, matchesPlayed: 4, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Missile knows where it isnt won' },
-  { name: 'NauseousEmoji', EP: 10, points: 0, wins: 0, matchesPlayed: 4, currentMatchesPlayed: 2, currentPair: 2, matchTime: 'Missile knows where it isnt won' },
+  { name: 'Fleet CMD', EP: 46, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 1, matchTime: '10.10. - 11.10.' },
+  { name: 'ThirdFeather', EP: 76, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 2, matchTime: '2.10. - 4.10.' },
+  { name: 'NauseousEmoji', EP: 10, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 3, matchTime: '28.9. Monday' },
+  { name: 'Deadly Alliance', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 4, matchTime: 'next weekends' },
+  { name: 'Shield and Spear', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 4, matchTime: 'next weekends' },
+  { name: 'Fixed or Random', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 3, matchTime: '28.9. Monday' },
+  { name: 'Dad FPS & The Dial-Up kid', EP: 89, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 2, matchTime: '2.10. - 4.10.' },
+  { name: 'Missile knows where it isnt', EP: 35, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 1, matchTime: '10.10. - 11.10.' },
 ];
 
 export default teamData;

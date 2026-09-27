@@ -10,6 +10,8 @@ const playerData = [
   
   { name: 'davy', EP: 103, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
   { name: 'Koi', EP: 103, matchesPlayed: 4, wins: 2, currentTeam: 'Dad FPS & The Dial-Up kid' },
+  { name: 'Fuzzy', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Dad FPS & The Dial-Up kid' },
+  { name: 'AceFaxon', EP: 3, matchesPlayed: 1, wins: 0, currentTeam: 'Dad FPS & The Dial-Up kid' },
   
   { name: 'bikaruu', EP: 14, matchesPlayed: 4, wins: 2, currentTeam: 'two eggs, one kol and a pure eradica' },
 
@@ -30,35 +32,40 @@ const playerData = [
   { name: 'doucit', EP: 20, matchesPlayed: 4, wins: 3, currentTeam: 'Bankstreet Boys' },
   { name: 'Crimeskin', EP: 15, matchesPlayed: 3, wins: 3, currentTeam: 'Bankstreet Boys' },
 
-  { name: 'Avezearth', EP: 40, matchesPlayed: 3, wins: 2, currentTeam: 'SOMA' },
+  { name: 'Avezearth', EP: 40, matchesPlayed: 3, wins: 2, currentTeam: 'Deadly Alliance' },
+  { name: 'pakss', EP: 6, matchesPlayed: 3, wins: 0, currentTeam: 'Deadly Alliance' },
+  { name: 'Fenix盛', EP: 54, matchesPlayed: 4, wins: 1, currentTeam: 'Deadly Alliance' },
+  
   { name: 'Matheus[BRz]L', EP: 30, matchesPlayed: 0, wins: 0, currentTeam: 'SOMA' },
   
   { name: 'Kissblade', EP: 10, matchesPlayed: 3, wins: 1, currentTeam: 'Suneaters' },
   { name: 'Zergrusher/L', EP: 3, matchesPlayed: 1, wins: 0, currentTeam: 'Suneaters' },
-  { name: 'AceFaxon', EP: 3, matchesPlayed: 1, wins: 0, currentTeam: 'Suneaters' },
 
   { name: 'fruitwing', EP: 12, matchesPlayed: 4, wins: 1, currentTeam: 'Panda' },
   { name: '风 暴 领 域 大 神', EP: 12, matchesPlayed: 4, wins: 1, currentTeam: 'Panda' },
 
-  { name: 'Fenix盛', EP: 54, matchesPlayed: 4, wins: 1, currentTeam: 'The Singer' },
   { name: 'galaxenter', EP: 42, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },
   { name: 'lagenaz', EP: 42, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },
   { name: 'UED', EP: 42, matchesPlayed: 0, wins: 0, currentTeam: 'The Singer' },  
 
   { name: 'dannyvye.com', EP: 44, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
-  { name: 'MonMon', EP: 44, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
-  { name: 'holo_icy_holo', EP: 39, matchesPlayed: 4, wins: 2, currentTeam: 'Fleet CMD' },
+  { name: 'Garren', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Fleet CMD' },
+  
+  { name: 'MonMon', EP: 44, matchesPlayed: 0, wins: 0, currentTeam: '' },
+  { name: 'holo_icy_holo', EP: 39, matchesPlayed: 4, wins: 2, currentTeam: '' },
 
   { name: 'Marvin', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },
   { name: 'Harkon Thorson', EP: 11, matchesPlayed: 0, wins: 0, currentTeam: 'TooSlow' },
   
-  { name: 'CCC小白', EP: 19, matchesPlayed: 4, wins: 3, currentTeam: 'Loong' },
+  { name: 'CCC小白', EP: 19, matchesPlayed: 4, wins: 3, currentTeam: 'Shield and Spear' },
+  { name: 'kabianmazorca', EP: 6, matchesPlayed: 3, wins: 0, currentTeam: 'Shield and Spear' },
+  { name: 'Flow', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Shield and Spear' },
+  { name: 'Laochra', EP: 0, matchesPlayed: 0, wins: 0, currentTeam: 'Shield and Spear' },
+  
   { name: 'X-Wing', EP: 19, matchesPlayed: 4, wins: 3, currentTeam: 'Loong' },
   { name: '黎梦秋年F', EP: 19, matchesPlayed: 4, wins: 3, currentTeam: 'Loong' },
 
   { name: 'SilasPT', EP: 6, matchesPlayed: 3, wins: 0, currentTeam: 'ISS' },
-  { name: 'pakss', EP: 6, matchesPlayed: 3, wins: 0, currentTeam: 'ISS' },
-  { name: 'kabianmazorca', EP: 6, matchesPlayed: 3, wins: 0, currentTeam: 'ISS' },
   
   { name: 'Geiger', EP: 26, matchesPlayed: 0, wins: 0, currentTeam: 'Expandieren und Auslöschen' },
   { name: 'DerGrubengräber', EP: 26, matchesPlayed: 0, wins: 0, currentTeam: 'Expandieren und Auslöschen' },

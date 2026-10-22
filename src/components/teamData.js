@@ -23,14 +23,14 @@ const teamData = [
  
 
   
-  { name: 'Fleet CMD', EP: 46, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 1, matchTime: '10.10. - 11.10.' },
-  { name: 'ThirdFeather', EP: 76, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 2, matchTime: '2.10. - 4.10.' },
-  { name: 'NauseousEmoji', EP: 10, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 3, matchTime: '28.9. Monday' },
-  { name: 'Deadly Alliance', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 4, matchTime: 'next weekends' },
-  { name: 'Shield and Spear', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 4, matchTime: 'next weekends' },
-  { name: 'Fixed or Random', EP: 0, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 3, matchTime: '28.9. Monday' },
-  { name: 'Dad FPS & The Dial-Up kid', EP: 89, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 2, matchTime: '2.10. - 4.10.' },
-  { name: 'Missile knows where it isnt', EP: 35, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 0, currentPair: 1, matchTime: '10.10. - 11.10.' },
+  { name: 'Fleet CMD', EP: 46, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'Shield and Spear won' },
+  { name: 'ThirdFeather', EP: 76, points: 0, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 1, currentPair: 2, matchTime: '24.10. - 25.10.' },
+  { name: 'NauseousEmoji', EP: 10, points: 1, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 1, currentPair: 3, matchTime: '23.10. Friday' },
+  { name: 'Deadly Alliance', EP: 0, points: 3, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 1, currentPair: 4, matchTime: '25.10. Sunday' },
+  { name: 'Shield and Spear', EP: 0, points: 3, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'Shield and Spear won' },
+  { name: 'Fixed or Random', EP: 0, points: 1, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 1, currentPair: 2, matchTime: '24.10. - 25.10.' },
+  { name: 'Dad FPS & The Dial-Up kid', EP: 89, points: 3, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 1, currentPair: 4, matchTime: '5.10. Sunday' },
+  { name: 'Missile knows where it isnt', EP: 35, points: 3, wins: 0, matchesPlayed: 0, currentMatchesPlayed: 1, currentPair: 3, matchTime: '23.10. Friday' },
 ];
 
 export default teamData;

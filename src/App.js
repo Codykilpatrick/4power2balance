@@ -19,6 +19,7 @@ function App() {
         
         
         <SwissBracket results={results} />
+        <SwissHistory />
         <div className="Leaderboard"> <Leaderboard /> </div>
         <RulesSection />
       </main>

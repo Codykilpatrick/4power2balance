@@ -6,6 +6,7 @@ import SwissBracket from './components/Bracket';
 import Footer from './components/Footer';
 import teamData from './components/teamData'; // 
 import Leaderboard from './components/Leaderboard'; 
+import SwissHistory from './components/SwissHistory';
 
 
 function App() {

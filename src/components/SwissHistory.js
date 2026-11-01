@@ -1,6 +1,6 @@
 // src/components/SwissHistory.js
 
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 
 const TEAM_NAMES = {
   '3F': 'ThirdFeather',
@@ -49,10 +49,6 @@ const round2Standings = {
   '3F': 0
 };
 
-/*
- * ROUND 3
- * We only know winners here, not exact game scores.
- */
 const round3Pairings = [
   { left: 'FC', right: '3F', winner: 'FC' },
   { left: 'DD', right: 'MK', winner: 'DD' },
@@ -71,9 +67,6 @@ const round3Standings = {
   '3F': 0
 };
 
-/*
- * ROUND 4 PAIRINGS
- */
 const round4Pairings = [
   { left: 'DD', right: 'SS' },
   { left: 'MK', right: 'DA' },
@@ -276,6 +269,7 @@ const FlowColumn = ({ title, children }) => (
 );
 
 function SwissHistory() {
+  const scrollContainerRef = useRef(null);
 
   const sortedRound1 = sortPairingsByCombinedPoints(
     round1Pairings,
@@ -297,15 +291,71 @@ function SwissHistory() {
     round3Standings
   );
 
+  useEffect(() => {
+    const container = scrollContainerRef.current;
+
+    if (container) {
+      container.scrollLeft = container.scrollWidth;
+    }
+  }, []);
+
   return (
     <section className="mb-10">
+
+      <style>
+        {`
+          .swiss-history-scroll {
+            scrollbar-width: thin;
+            scrollbar-color: #38bdf8 rgba(15, 23, 42, 0.75);
+          }
+
+          .swiss-history-scroll::-webkit-scrollbar {
+            height: 12px;
+          }
+
+          .swiss-history-scroll::-webkit-scrollbar-track {
+            background: rgba(15, 23, 42, 0.75);
+            border: 1px solid rgba(56, 189, 248, 0.25);
+            border-radius: 999px;
+          }
+
+          .swiss-history-scroll::-webkit-scrollbar-thumb {
+            background: linear-gradient(
+              90deg,
+              #7c3aed,
+              #38bdf8
+            );
+
+            border-radius: 999px;
+            border: 2px solid rgba(15, 23, 42, 0.9);
+
+            box-shadow:
+              0 0 8px rgba(56, 189, 248, 0.45),
+              0 0 12px rgba(124, 58, 237, 0.25);
+          }
+
+          .swiss-history-scroll::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(
+              90deg,
+              #8b5cf6,
+              #67e8f9
+            );
+
+            box-shadow:
+              0 0 10px rgba(103, 232, 249, 0.7),
+              0 0 14px rgba(139, 92, 246, 0.4);
+          }
+        `}
+      </style>
 
       <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2 mb-6">
         Swiss Tournament Progress
       </h2>
 
-      <div className="overflow-x-auto pb-4">
-
+      <div
+        ref={scrollContainerRef}
+        className="swiss-history-scroll overflow-x-auto pb-4"
+      >
         <div className="flex gap-5 min-w-[2100px] items-stretch">
 
           {/* ROUND 1 PAIRINGS */}

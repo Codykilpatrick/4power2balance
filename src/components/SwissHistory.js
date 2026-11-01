@@ -50,10 +50,10 @@ const round2Standings = {
 };
 
 const round3Pairings = [
-  { left: 'FC', right: '3F', winner: 'FC' },
-  { left: 'DD', right: 'MK', winner: 'DD' },
-  { left: 'FR', right: 'DA', winner: 'DA' },
-  { left: 'SS', right: 'NE', winner: 'SS' }
+  { left: 'FC', right: '3F', leftScore: 2, rightScore: 0 },
+  { left: 'DD', right: 'MK', leftScore: 2, rightScore: 0 },
+  { left: 'FR', right: 'DA', leftScore: 0, rightScore: 2 },
+  { left: 'SS', right: 'NE', leftScore: 2, rightScore: 0 }
 ];
 
 const round3Standings = {

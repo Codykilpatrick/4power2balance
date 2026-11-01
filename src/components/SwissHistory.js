@@ -49,11 +49,36 @@ const round2Standings = {
   '3F': 0
 };
 
+/*
+ * ROUND 3
+ * We only know winners here, not exact game scores.
+ */
 const round3Pairings = [
-  { left: 'FC', right: '3F' },
-  { left: 'DD', right: 'MK' },
-  { left: 'FR', right: 'DA' },
-  { left: 'SS', right: 'NE' }
+  { left: 'FC', right: '3F', winner: 'FC' },
+  { left: 'DD', right: 'MK', winner: 'DD' },
+  { left: 'FR', right: 'DA', winner: 'DA' },
+  { left: 'SS', right: 'NE', winner: 'SS' }
+];
+
+const round3Standings = {
+  DD: 9,
+  MK: 6,
+  DA: 6,
+  SS: 6,
+  FR: 4,
+  FC: 3,
+  NE: 1,
+  '3F': 0
+};
+
+/*
+ * ROUND 4 PAIRINGS
+ */
+const round4Pairings = [
+  { left: 'DD', right: 'SS' },
+  { left: 'MK', right: 'DA' },
+  { left: 'FR', right: 'FC' },
+  { left: 'NE', right: '3F' }
 ];
 
 function sortPairingsByCombinedPoints(pairings, standingsBeforeRound) {
@@ -88,22 +113,34 @@ function sortPairingsByCombinedPoints(pairings, standingsBeforeRound) {
   });
 }
 
-const Pairing = ({ left, leftScore, rightScore, right }) => {
+const Pairing = ({
+  left,
+  leftScore,
+  rightScore,
+  right,
+  winner
+}) => {
   const finished =
     leftScore !== undefined &&
     rightScore !== undefined;
 
   const leftWon =
-    finished && leftScore > rightScore;
+    finished
+      ? leftScore > rightScore
+      : winner === left;
 
   const rightWon =
-    finished && rightScore > leftScore;
+    finished
+      ? rightScore > leftScore
+      : winner === right;
 
   const draw =
-    finished && leftScore === rightScore;
+    finished &&
+    leftScore === rightScore;
 
   return (
     <div className="grid grid-cols-[1fr_auto_1fr] items-center min-h-[72px] px-3 py-3 border border-ionized-blue/60 bg-space-dark/80 rounded">
+
       <div className="text-center text-2xl font-bold">
         {left}
       </div>
@@ -139,6 +176,32 @@ const Pairing = ({ left, leftScore, rightScore, right }) => {
               {rightScore}
             </span>
           </>
+        ) : winner ? (
+          <>
+            <span
+              className={
+                leftWon
+                  ? 'text-green-400'
+                  : 'text-red-400'
+              }
+            >
+              {leftWon ? 'W' : 'L'}
+            </span>
+
+            <span className="text-starlight-white mx-1">
+              :
+            </span>
+
+            <span
+              className={
+                rightWon
+                  ? 'text-green-400'
+                  : 'text-red-400'
+              }
+            >
+              {rightWon ? 'W' : 'L'}
+            </span>
+          </>
         ) : (
           <span className="text-starlight-white">
             vs
@@ -149,6 +212,7 @@ const Pairing = ({ left, leftScore, rightScore, right }) => {
       <div className="text-center text-2xl font-bold">
         {right}
       </div>
+
     </div>
   );
 };
@@ -199,6 +263,7 @@ const StandingCluster = ({
 
 const FlowColumn = ({ title, children }) => (
   <div className="min-w-[230px] flex-1 border border-ionized-blue/60 rounded-lg bg-space-dark/90 p-4 flex flex-col">
+
     <h3 className="text-2xl font-bold text-center border-b border-ionized-blue/50 pb-3 mb-4">
       {title}
     </h3>
@@ -206,10 +271,12 @@ const FlowColumn = ({ title, children }) => (
     <div className="flex-grow flex flex-col justify-center">
       {children}
     </div>
+
   </div>
 );
 
 function SwissHistory() {
+
   const sortedRound1 = sortPairingsByCombinedPoints(
     round1Pairings,
     {}
@@ -225,14 +292,21 @@ function SwissHistory() {
     round2Standings
   );
 
+  const sortedRound4 = sortPairingsByCombinedPoints(
+    round4Pairings,
+    round3Standings
+  );
+
   return (
     <section className="mb-10">
+
       <h2 className="text-3xl font-bold text-ionized-blue border-b-2 border-ionized-blue pb-2 mb-6">
         Swiss Tournament Progress
       </h2>
 
       <div className="overflow-x-auto pb-4">
-        <div className="flex gap-5 min-w-[1400px] items-stretch">
+
+        <div className="flex gap-5 min-w-[2100px] items-stretch">
 
           {/* ROUND 1 PAIRINGS */}
           <FlowColumn title="Round 1 Pairings">
@@ -332,11 +406,68 @@ function SwissHistory() {
             </div>
           </FlowColumn>
 
+          {/* ROUND 3 RESULTS */}
+          <FlowColumn title="Round 3 Results">
+            <div className="space-y-3">
+
+              <StandingCluster
+                points={9}
+                type="winning"
+                teams={['DD']}
+              />
+
+              <StandingCluster
+                points={6}
+                type="winning"
+                teams={['MK', 'DA', 'SS']}
+              />
+
+              <StandingCluster
+                points={4}
+                type="neutral"
+                teams={['FR']}
+              />
+
+              <StandingCluster
+                points={3}
+                type="neutral"
+                teams={['FC']}
+              />
+
+              <StandingCluster
+                points={1}
+                type="losing"
+                teams={['NE']}
+              />
+
+              <StandingCluster
+                points={0}
+                type="losing"
+                teams={['3F']}
+              />
+
+            </div>
+          </FlowColumn>
+
+          {/* ROUND 4 PAIRINGS */}
+          <FlowColumn title="Round 4 Pairings">
+            <div className="space-y-4">
+              {sortedRound4.map((match) => (
+                <Pairing
+                  key={`${match.left}-${match.right}`}
+                  {...match}
+                />
+              ))}
+            </div>
+          </FlowColumn>
+
         </div>
       </div>
 
       <div className="mt-4 text-sm text-starlight-white/70">
+
         <strong>Shortcodes:</strong>{' '}
+
         3F = ThirdFeather ·
         FC = Fleet CMD ·
         NE = NauseousEmoji ·
@@ -345,7 +476,9 @@ function SwissHistory() {
         FR = Fixed or Random ·
         DD = Dad FPS &amp; The Dial-Up kid ·
         MK = Missile knows where it isnt
+
       </div>
+
     </section>
   );
 }

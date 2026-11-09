@@ -23,14 +23,14 @@ const teamData = [
  
 
   
-  { name: 'Fleet CMD', EP: 46, points: 3, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'TBA' },
-  { name: 'ThirdFeather', EP: 76, points: 0, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 1, currentPair: 2, matchTime: 'TBA' },
-  { name: 'NauseousEmoji', EP: 10, points: 1, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 1, currentPair: 2, matchTime: 'TBA' },
-  { name: 'Deadly Alliance', EP: 0, points: 6, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 1, currentPair: 3, matchTime: 'TBA' },
+  { name: 'Fleet CMD', EP: 46, points: 3, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 1, matchTime: 'Fleet CMD won' },
+  { name: 'ThirdFeather', EP: 76, points: 0, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 1, currentPair: 2, matchTime: 'ThirdFeather won' },
+  { name: 'NauseousEmoji', EP: 10, points: 1, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 1, currentPair: 2, matchTime: 'ThirdFeather won' },
+  { name: 'Deadly Alliance', EP: 0, points: 6, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 1, currentPair: 3, matchTime: 'Deadly Alliance won' },
   { name: 'Shield and Spear', EP: 0, points: 6, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 2, currentPair: 4, matchTime: 'TBA' },
-  { name: 'Fixed or Random', EP: 0, points: 4, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 1, currentPair: 1, matchTime: 'TBA' },
+  { name: 'Fixed or Random', EP: 0, points: 4, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 1, currentPair: 1, matchTime: 'Fleet CMD won' },
   { name: 'Dad FPS & The Dial-Up kid', EP: 89, points: 9, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 4, currentPair: 4, matchTime: 'TBA' },
-  { name: 'Missile knows where it isnt', EP: 35, points: 6, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 4, currentPair: 3, matchTime: 'TBA' },
+  { name: 'Missile knows where it isnt', EP: 35, points: 6, wins: 0, matchesPlayed: 3, currentMatchesPlayed: 4, currentPair: 3, matchTime: 'Deadly Alliance won' },
 ];
 
 export default teamData;

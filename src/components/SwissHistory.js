@@ -69,9 +69,9 @@ const round3Standings = {
 
 const round4Pairings = [
   { left: 'DD', right: 'SS' },
-  { left: 'MK', right: 'DA' },
-  { left: 'FR', right: 'FC' },
-  { left: 'NE', right: '3F' }
+  { left: 'MK', right: 'DA', leftScore: 0, rightScore: 2  },
+  { left: 'FR', right: 'FC', leftScore: 0, rightScore: 2  },
+  { left: 'NE', right: '3F', leftScore: 0, rightScore: 2  }
 ];
 
 function sortPairingsByCombinedPoints(pairings, standingsBeforeRound) {
